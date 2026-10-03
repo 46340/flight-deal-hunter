@@ -248,13 +248,20 @@ export async function renderResults(root, store, id) {
   root.append(header);
 
   if (!result) {
-    const next = nextRun();
+    const fmt = (t) => t.toLocaleString(undefined, { weekday: "short", hour: "2-digit", minute: "2-digit" });
+    const now = new Date();
+    const recent = new Date(now.getTime() - 90 * 60000);
+    const due = nextRun(recent);
+    const timing =
+      due <= now
+        ? `A run was scheduled for ${fmt(due)} your time. GitHub often starts scheduled runs late, so it may still be starting or running; a run takes up to about an hour. If not, the next one is around ${fmt(nextRun(now))}.`
+        : `The next scheduled run is around ${fmt(due)} your time (GitHub may start it a little late).`;
     root.append(
       el(
         "section",
         { class: "panel empty" },
         el("p", {}, "No results yet."),
-        el("p", { class: "muted small" }, `Scheduled runs are at 05:00, 12:00 and 19:00 UTC. The next one is around ${next.toLocaleString(undefined, { weekday: "short", hour: "2-digit", minute: "2-digit" })} your time (GitHub may start it a little late). You can also start a run by hand from the repo's Actions tab.`),
+        el("p", { class: "muted small" }, `Runs are scheduled at 05:00, 12:00 and 19:00 UTC. ${timing} You can also start a run by hand from the repo's Actions tab.`),
       ),
     );
     return;

@@ -24,4 +24,10 @@ jobs:
       - name: Probe
         env:
           OUT_DATE: ${{ inputs.out_date }}
-        run: python scripts/probe_google.py ${OUT_DATE:+--out-date "$OUT_DATE"}
+        run: python scripts/probe_google.py --save-dir probe-pages ${OUT_DATE:+--out-date "$OUT_DATE"}
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: probe-pages
+          path: probe-pages/
+          retention-days: 7

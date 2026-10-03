@@ -45,11 +45,21 @@ def raw_sections(text: str) -> dict:
     return out
 
 
+def save_fixture(path: Path, text: str) -> None:
+    from selectolax.lexbor import LexborHTMLParser
+
+    script = LexborHTMLParser(text).css_first(r"script.ds\:1")
+    body = script.html if script is not None else "<!-- no ds:1 script -->"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(f"<html><body>{body}</body></html>\n", encoding="utf-8")
+
+
 def main() -> int:
     p = argparse.ArgumentParser()
     p.add_argument("--out-date", type=date.fromisoformat, default=date.today() + timedelta(days=32))
     p.add_argument("--ret-date", type=date.fromisoformat)
     p.add_argument("--currency", default="DKK")
+    p.add_argument("--save-dir", type=Path, help="save each page's data script as a trimmed HTML fixture")
     a = p.parse_args()
     out_d = a.out_date
     ret_d = a.ret_date or out_d + timedelta(days=6)
@@ -100,6 +110,8 @@ def main() -> int:
         except Exception as exc:
             row["parse_error"] = repr(exc)[:200]
         row["raw"] = raw_sections(resp.text)
+        if a.save_dir:
+            save_fixture(a.save_dir / f"{i:02d}_{trip}_{'_'.join(leg.origin + leg.destination for leg in legs)}.html", resp.text)
         print(json.dumps(row), flush=True)
     return 3 if blocked else 0
 

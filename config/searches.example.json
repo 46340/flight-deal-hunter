@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "searches": [
+    {
+      "id": "cph-nyc-example",
+      "name": "Denmark to New York (example)",
+      "status": "active",
+      "created": "2026-10-03",
+      "tracking_days": 10,
+      "trip_type": "return",
+      "origin_center": "CPH",
+      "origin_radius_km": 250,
+      "origins": ["CPH", "BLL", "AAL"],
+      "destination_center": "JFK",
+      "destination_radius_km": 350,
+      "destinations": ["JFK", "EWR", "IAD"],
+      "earliest_out": "2026-11-02",
+      "latest_return": "2026-11-12",
+      "min_stay": 4,
+      "max_stay": 7,
+      "price_cap": 3500,
+      "currency": "DKK"
+    }
+  ]
+}

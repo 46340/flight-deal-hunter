@@ -1,0 +1,29 @@
+{
+  "_comment": "Shared by tests/test_planner.py and the web test page. expected = stage 1 legs.",
+  "cases": [
+    {"name": "spec example 3x3, 11 day window, stay 4-7", "today": "2026-10-03",
+     "search": {"trip_type": "return", "origins": ["CPH", "BLL", "AAL"], "destinations": ["JFK", "EWR", "IAD"],
+                "earliest_out": "2026-11-02", "latest_return": "2026-11-12", "min_stay": 4, "max_stay": 7},
+     "outbound_dates": 7, "return_dates": 7, "expected": 126},
+    {"name": "one-way 2x1 over 5 days", "today": "2026-10-03",
+     "search": {"trip_type": "one-way", "origins": ["CPH", "HAM"], "destinations": ["JFK"],
+                "earliest_out": "2026-11-01", "latest_return": "2026-11-05", "min_stay": 1, "max_stay": 7},
+     "outbound_dates": 5, "return_dates": 0, "expected": 10},
+    {"name": "window starts in the past", "today": "2026-11-03",
+     "search": {"trip_type": "return", "origins": ["CPH"], "destinations": ["JFK"],
+                "earliest_out": "2026-11-01", "latest_return": "2026-11-10", "min_stay": 1, "max_stay": 3},
+     "outbound_dates": 7, "return_dates": 7, "expected": 14},
+    {"name": "max stay limits return dates", "today": "2026-10-03",
+     "search": {"trip_type": "return", "origins": ["CPH"], "destinations": ["JFK"],
+                "earliest_out": "2026-11-01", "latest_return": "2026-11-30", "min_stay": 2, "max_stay": 2},
+     "outbound_dates": 28, "return_dates": 28, "expected": 56},
+    {"name": "same airport on both sides is skipped", "today": "2026-10-03",
+     "search": {"trip_type": "return", "origins": ["CPH", "HAM"], "destinations": ["HAM", "JFK"],
+                "earliest_out": "2026-11-01", "latest_return": "2026-11-03", "min_stay": 1, "max_stay": 2},
+     "outbound_dates": 2, "return_dates": 2, "expected": 12},
+    {"name": "window too short for min stay", "today": "2026-10-03",
+     "search": {"trip_type": "return", "origins": ["CPH"], "destinations": ["JFK"],
+                "earliest_out": "2026-11-01", "latest_return": "2026-11-02", "min_stay": 3, "max_stay": 5},
+     "outbound_dates": 0, "return_dates": 0, "expected": 0}
+  ]
+}

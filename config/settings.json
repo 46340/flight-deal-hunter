@@ -1,0 +1,16 @@
+{
+  "max_searches_per_run": 800,
+  "delay_min_s": 2,
+  "delay_max_s": 5,
+  "max_retries": 3,
+  "block_threshold": 10,
+  "reprice_top_n": 30,
+  "reprice_cap_factor": 1.3,
+  "reprice_per_pair": 2,
+  "reprice_max_per_search": 60,
+  "paid_fallback": {
+    "enabled": false,
+    "provider": "ignav",
+    "spend_cap_usd": 10
+  }
+}

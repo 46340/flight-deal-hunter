@@ -1,1 +1,19 @@
-{"runs": []}
+{
+ "runs": [
+  {
+   "run": "2026-10-03T11:40:04Z",
+   "status": "ok",
+   "queries": 44,
+   "provider": "google",
+   "searches": [
+    {
+     "search_id": "example-cph-london",
+     "status": "ok",
+     "deals": 18,
+     "trips": 80
+    }
+   ],
+   "errors": []
+  }
+ ]
+}

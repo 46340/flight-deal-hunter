@@ -1,0 +1,436 @@
+{
+ "search_id": "example-cph-london",
+ "currency": "DKK",
+ "deals": [
+  {
+   "key": "CPH-LGW-2026-11-06|LGW-CPH-2026-11-08",
+   "first_seen": "2026-10-03T11:40:04Z",
+   "out_date": "2026-11-06",
+   "out_from": "CPH",
+   "out_to": "LGW",
+   "price": 649.0,
+   "ticket_type": "single",
+   "airlines": [
+    "easyJet"
+   ],
+   "links": [
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMDZqBRIDQ1BIcgUSA0xHVxoaEgoyMDI2LTExLTA4agUSA0xHV3IFEgNDUEhCAQFIAYgBAZgBAQ==&hl=en-US&curr=DKK"
+   ],
+   "ret_date": "2026-11-08",
+   "ret_from": "LGW",
+   "ret_to": "CPH",
+   "separate_price": 651.0,
+   "last_seen": "2026-10-03T11:40:04Z",
+   "available": true
+  },
+  {
+   "key": "CPH-LGW-2026-11-04|LGW-CPH-2026-11-07",
+   "first_seen": "2026-10-03T11:40:04Z",
+   "out_date": "2026-11-04",
+   "out_from": "CPH",
+   "out_to": "LGW",
+   "price": 693.0,
+   "ticket_type": "single",
+   "airlines": [
+    "easyJet"
+   ],
+   "links": [
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMDRqBRIDQ1BIcgUSA0xHVxoaEgoyMDI2LTExLTA3agUSA0xHV3IFEgNDUEhCAQFIAYgBAZgBAQ==&hl=en-US&curr=DKK"
+   ],
+   "ret_date": "2026-11-07",
+   "ret_from": "LGW",
+   "ret_to": "CPH",
+   "separate_price": 695.0,
+   "last_seen": "2026-10-03T11:40:04Z",
+   "available": true
+  },
+  {
+   "key": "BLL-LGW-2026-11-04|LGW-CPH-2026-11-07",
+   "first_seen": "2026-10-03T11:40:04Z",
+   "out_date": "2026-11-04",
+   "out_from": "BLL",
+   "out_to": "LGW",
+   "price": 727.0,
+   "ticket_type": "separate",
+   "airlines": [
+    "Norwegian",
+    "easyJet"
+   ],
+   "links": [
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMDRqBRIDQkxMcgUSA0xHV0IBAUgBmAEC&hl=en-US&curr=DKK",
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMDdqBRIDTEdXcgUSA0NQSEIBAUgBmAEC&hl=en-US&curr=DKK"
+   ],
+   "ret_date": "2026-11-07",
+   "ret_from": "LGW",
+   "ret_to": "CPH",
+   "separate_price": 727.0,
+   "last_seen": "2026-10-03T11:40:04Z",
+   "available": true
+  },
+  {
+   "key": "CPH-LGW-2026-11-04|LGW-BLL-2026-11-07",
+   "first_seen": "2026-10-03T11:40:04Z",
+   "out_date": "2026-11-04",
+   "out_from": "CPH",
+   "out_to": "LGW",
+   "price": 804.0,
+   "ticket_type": "separate",
+   "airlines": [
+    "easyJet",
+    "Norwegian"
+   ],
+   "links": [
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMDRqBRIDQ1BIcgUSA0xHV0IBAUgBmAEC&hl=en-US&curr=DKK",
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMDdqBRIDTEdXcgUSA0JMTEIBAUgBmAEC&hl=en-US&curr=DKK"
+   ],
+   "ret_date": "2026-11-07",
+   "ret_from": "LGW",
+   "ret_to": "BLL",
+   "separate_price": 804.0,
+   "last_seen": "2026-10-03T11:40:04Z",
+   "available": true
+  },
+  {
+   "key": "BLL-LHR-2026-11-06|LGW-CPH-2026-11-08",
+   "first_seen": "2026-10-03T11:40:04Z",
+   "out_date": "2026-11-06",
+   "out_from": "BLL",
+   "out_to": "LHR",
+   "price": 819.0,
+   "ticket_type": "separate",
+   "airlines": [
+    "British Airways",
+    "easyJet"
+   ],
+   "links": [
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMDZqBRIDQkxMcgUSA0xIUkIBAUgBmAEC&hl=en-US&curr=DKK",
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMDhqBRIDTEdXcgUSA0NQSEIBAUgBmAEC&hl=en-US&curr=DKK"
+   ],
+   "ret_date": "2026-11-08",
+   "ret_from": "LGW",
+   "ret_to": "CPH",
+   "separate_price": 819.0,
+   "last_seen": "2026-10-03T11:40:04Z",
+   "available": true
+  },
+  {
+   "key": "BLL-LGW-2026-11-04|LGW-BLL-2026-11-07",
+   "first_seen": "2026-10-03T11:40:04Z",
+   "out_date": "2026-11-04",
+   "out_from": "BLL",
+   "out_to": "LGW",
+   "price": 831.0,
+   "ticket_type": "single",
+   "airlines": [
+    "Norwegian"
+   ],
+   "links": [
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMDRqBRIDQkxMcgUSA0xHVxoaEgoyMDI2LTExLTA3agUSA0xHV3IFEgNCTExCAQFIAYgBAZgBAQ==&hl=en-US&curr=DKK"
+   ],
+   "ret_date": "2026-11-07",
+   "ret_from": "LGW",
+   "ret_to": "BLL",
+   "separate_price": 836.0,
+   "last_seen": "2026-10-03T11:40:04Z",
+   "available": true
+  },
+  {
+   "key": "CPH-LGW-2026-11-05|LGW-CPH-2026-11-08",
+   "first_seen": "2026-10-03T11:40:04Z",
+   "out_date": "2026-11-05",
+   "out_from": "CPH",
+   "out_to": "LGW",
+   "price": 861.0,
+   "ticket_type": "single",
+   "airlines": [
+    "easyJet"
+   ],
+   "links": [
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMDVqBRIDQ1BIcgUSA0xHVxoaEgoyMDI2LTExLTA4agUSA0xHV3IFEgNDUEhCAQFIAYgBAZgBAQ==&hl=en-US&curr=DKK"
+   ],
+   "ret_date": "2026-11-08",
+   "ret_from": "LGW",
+   "ret_to": "CPH",
+   "separate_price": 863.0,
+   "last_seen": "2026-10-03T11:40:04Z",
+   "available": true
+  },
+  {
+   "key": "CPH-LGW-2026-11-04|LGW-CPH-2026-11-06",
+   "first_seen": "2026-10-03T11:40:04Z",
+   "out_date": "2026-11-04",
+   "out_from": "CPH",
+   "out_to": "LGW",
+   "price": 865.0,
+   "ticket_type": "separate",
+   "airlines": [
+    "easyJet",
+    "Norwegian"
+   ],
+   "links": [
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMDRqBRIDQ1BIcgUSA0xHV0IBAUgBmAEC&hl=en-US&curr=DKK",
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMDZqBRIDTEdXcgUSA0NQSEIBAUgBmAEC&hl=en-US&curr=DKK"
+   ],
+   "ret_date": "2026-11-06",
+   "ret_from": "LGW",
+   "ret_to": "CPH",
+   "separate_price": 865.0,
+   "last_seen": "2026-10-03T11:40:04Z",
+   "available": true
+  },
+  {
+   "key": "BLL-LGW-2026-11-05|LGW-CPH-2026-11-08",
+   "first_seen": "2026-10-03T11:40:04Z",
+   "out_date": "2026-11-05",
+   "out_from": "BLL",
+   "out_to": "LGW",
+   "price": 880.0,
+   "ticket_type": "separate",
+   "airlines": [
+    "Norwegian",
+    "easyJet"
+   ],
+   "links": [
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMDVqBRIDQkxMcgUSA0xHV0IBAUgBmAEC&hl=en-US&curr=DKK",
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMDhqBRIDTEdXcgUSA0NQSEIBAUgBmAEC&hl=en-US&curr=DKK"
+   ],
+   "ret_date": "2026-11-08",
+   "ret_from": "LGW",
+   "ret_to": "CPH",
+   "separate_price": 880.0,
+   "last_seen": "2026-10-03T11:40:04Z",
+   "available": true
+  },
+  {
+   "key": "BLL-LGW-2026-11-04|LGW-CPH-2026-11-06",
+   "first_seen": "2026-10-03T11:40:04Z",
+   "out_date": "2026-11-04",
+   "out_from": "BLL",
+   "out_to": "LGW",
+   "price": 897.0,
+   "ticket_type": "separate",
+   "airlines": [
+    "Norwegian"
+   ],
+   "links": [
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMDRqBRIDQkxMcgUSA0xHV0IBAUgBmAEC&hl=en-US&curr=DKK",
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMDZqBRIDTEdXcgUSA0NQSEIBAUgBmAEC&hl=en-US&curr=DKK"
+   ],
+   "ret_date": "2026-11-06",
+   "ret_from": "LGW",
+   "ret_to": "CPH",
+   "separate_price": 897.0,
+   "last_seen": "2026-10-03T11:40:04Z",
+   "available": true
+  },
+  {
+   "key": "CPH-LGW-2026-11-04|LHR-BLL-2026-11-07",
+   "first_seen": "2026-10-03T11:40:04Z",
+   "out_date": "2026-11-04",
+   "out_from": "CPH",
+   "out_to": "LGW",
+   "price": 897.0,
+   "ticket_type": "separate",
+   "airlines": [
+    "easyJet",
+    "British Airways"
+   ],
+   "links": [
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMDRqBRIDQ1BIcgUSA0xHV0IBAUgBmAEC&hl=en-US&curr=DKK",
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMDdqBRIDTEhScgUSA0JMTEIBAUgBmAEC&hl=en-US&curr=DKK"
+   ],
+   "ret_date": "2026-11-07",
+   "ret_from": "LHR",
+   "ret_to": "BLL",
+   "separate_price": 897.0,
+   "last_seen": "2026-10-03T11:40:04Z",
+   "available": true
+  },
+  {
+   "key": "BLL-LHR-2026-11-04|LGW-CPH-2026-11-07",
+   "first_seen": "2026-10-03T11:40:04Z",
+   "out_date": "2026-11-04",
+   "out_from": "BLL",
+   "out_to": "LHR",
+   "price": 916.0,
+   "ticket_type": "separate",
+   "airlines": [
+    "British Airways",
+    "easyJet"
+   ],
+   "links": [
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMDRqBRIDQkxMcgUSA0xIUkIBAUgBmAEC&hl=en-US&curr=DKK",
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMDdqBRIDTEdXcgUSA0NQSEIBAUgBmAEC&hl=en-US&curr=DKK"
+   ],
+   "ret_date": "2026-11-07",
+   "ret_from": "LGW",
+   "ret_to": "CPH",
+   "separate_price": 916.0,
+   "last_seen": "2026-10-03T11:40:04Z",
+   "available": true
+  },
+  {
+   "key": "CPH-LGW-2026-11-04|LHR-BLL-2026-11-06",
+   "first_seen": "2026-10-03T11:40:04Z",
+   "out_date": "2026-11-04",
+   "out_from": "CPH",
+   "out_to": "LGW",
+   "price": 923.0,
+   "ticket_type": "separate",
+   "airlines": [
+    "easyJet",
+    "British Airways"
+   ],
+   "links": [
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMDRqBRIDQ1BIcgUSA0xHV0IBAUgBmAEC&hl=en-US&curr=DKK",
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMDZqBRIDTEhScgUSA0JMTEIBAUgBmAEC&hl=en-US&curr=DKK"
+   ],
+   "ret_date": "2026-11-06",
+   "ret_from": "LHR",
+   "ret_to": "BLL",
+   "separate_price": 923.0,
+   "last_seen": "2026-10-03T11:40:04Z",
+   "available": true
+  },
+  {
+   "key": "BLL-LGW-2026-11-04|LHR-BLL-2026-11-07",
+   "first_seen": "2026-10-03T11:40:04Z",
+   "out_date": "2026-11-04",
+   "out_from": "BLL",
+   "out_to": "LGW",
+   "price": 929.0,
+   "ticket_type": "separate",
+   "airlines": [
+    "Norwegian",
+    "British Airways"
+   ],
+   "links": [
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMDRqBRIDQkxMcgUSA0xHV0IBAUgBmAEC&hl=en-US&curr=DKK",
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMDdqBRIDTEhScgUSA0JMTEIBAUgBmAEC&hl=en-US&curr=DKK"
+   ],
+   "ret_date": "2026-11-07",
+   "ret_from": "LHR",
+   "ret_to": "BLL",
+   "separate_price": 929.0,
+   "last_seen": "2026-10-03T11:40:04Z",
+   "available": true
+  },
+  {
+   "key": "BLL-LGW-2026-11-04|LHR-BLL-2026-11-06",
+   "first_seen": "2026-10-03T11:40:04Z",
+   "out_date": "2026-11-04",
+   "out_from": "BLL",
+   "out_to": "LGW",
+   "price": 955.0,
+   "ticket_type": "separate",
+   "airlines": [
+    "Norwegian",
+    "British Airways"
+   ],
+   "links": [
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMDRqBRIDQkxMcgUSA0xHV0IBAUgBmAEC&hl=en-US&curr=DKK",
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMDZqBRIDTEhScgUSA0JMTEIBAUgBmAEC&hl=en-US&curr=DKK"
+   ],
+   "ret_date": "2026-11-06",
+   "ret_from": "LHR",
+   "ret_to": "BLL",
+   "separate_price": 955.0,
+   "last_seen": "2026-10-03T11:40:04Z",
+   "available": true
+  },
+  {
+   "key": "CPH-LGW-2026-11-05|LGW-CPH-2026-11-07",
+   "first_seen": "2026-10-03T11:40:04Z",
+   "out_date": "2026-11-05",
+   "out_from": "CPH",
+   "out_to": "LGW",
+   "price": 958.0,
+   "ticket_type": "single",
+   "airlines": [
+    "easyJet"
+   ],
+   "links": [
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMDVqBRIDQ1BIcgUSA0xHVxoaEgoyMDI2LTExLTA3agUSA0xHV3IFEgNDUEhCAQFIAYgBAZgBAQ==&hl=en-US&curr=DKK"
+   ],
+   "ret_date": "2026-11-07",
+   "ret_from": "LGW",
+   "ret_to": "CPH",
+   "separate_price": 960.0,
+   "last_seen": "2026-10-03T11:40:04Z",
+   "available": true
+  },
+  {
+   "key": "BLL-LGW-2026-11-05|LGW-CPH-2026-11-07",
+   "first_seen": "2026-10-03T11:40:04Z",
+   "out_date": "2026-11-05",
+   "out_from": "BLL",
+   "out_to": "LGW",
+   "price": 977.0,
+   "ticket_type": "separate",
+   "airlines": [
+    "Norwegian",
+    "easyJet"
+   ],
+   "links": [
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMDVqBRIDQkxMcgUSA0xHV0IBAUgBmAEC&hl=en-US&curr=DKK",
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMDdqBRIDTEdXcgUSA0NQSEIBAUgBmAEC&hl=en-US&curr=DKK"
+   ],
+   "ret_date": "2026-11-07",
+   "ret_from": "LGW",
+   "ret_to": "CPH",
+   "separate_price": 977.0,
+   "last_seen": "2026-10-03T11:40:04Z",
+   "available": true
+  },
+  {
+   "key": "CPH-LGW-2026-11-04|LHR-CPH-2026-11-07",
+   "first_seen": "2026-10-03T11:40:04Z",
+   "out_date": "2026-11-04",
+   "out_from": "CPH",
+   "out_to": "LGW",
+   "price": 994.0,
+   "ticket_type": "separate",
+   "airlines": [
+    "easyJet",
+    "British Airways"
+   ],
+   "links": [
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMDRqBRIDQ1BIcgUSA0xHV0IBAUgBmAEC&hl=en-US&curr=DKK",
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMDdqBRIDTEhScgUSA0NQSEIBAUgBmAEC&hl=en-US&curr=DKK"
+   ],
+   "ret_date": "2026-11-07",
+   "ret_from": "LHR",
+   "ret_to": "CPH",
+   "separate_price": 994.0,
+   "last_seen": "2026-10-03T11:40:04Z",
+   "available": true
+  }
+ ],
+ "cheapest_per_run": [
+  {
+   "run": "2026-10-03T11:40:04Z",
+   "out_date": "2026-11-06",
+   "out_from": "CPH",
+   "out_to": "LGW",
+   "price": 649.0,
+   "ticket_type": "single",
+   "airlines": [
+    "easyJet"
+   ],
+   "ret_date": "2026-11-08",
+   "ret_from": "LGW",
+   "ret_to": "CPH",
+   "separate_price": 651.0
+  }
+ ],
+ "runs": [
+  {
+   "run": "2026-10-03T11:40:04Z",
+   "searches": 44,
+   "provider": "google",
+   "status": "ok",
+   "errors": []
+  }
+ ],
+ "updated": "2026-10-03T11:40:04Z"
+}

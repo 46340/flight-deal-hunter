@@ -1,0 +1,27 @@
+name: Probe Google Flights
+
+on:
+  workflow_dispatch:
+    inputs:
+      out_date:
+        description: "Outbound date (YYYY-MM-DD), blank for 32 days from today"
+        required: false
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Probe
+        env:
+          OUT_DATE: ${{ inputs.out_date }}
+        run: python scripts/probe_google.py ${OUT_DATE:+--out-date "$OUT_DATE"}

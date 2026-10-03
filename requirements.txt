@@ -1,2 +1,3 @@
 # fast-flights v3 is only published on GitHub, not PyPI.
 fast-flights @ git+https://github.com/AWeirdDev/flights@v3.1.0
+typing_extensions>=4.8  # imported by fast-flights 3.1.0 but not declared

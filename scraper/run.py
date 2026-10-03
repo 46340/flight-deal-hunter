@@ -434,9 +434,12 @@ def build_providers(args, settings: dict) -> list[Provider]:
 
     providers: list[Provider] = [GoogleFlightsProvider()]
     if settings.get("paid_fallback", {}).get("enabled"):
-        from .providers.paid import PaidApiProvider
-
-        providers.append(PaidApiProvider.from_env(settings, ROOT / "data" / "spend.json"))
+        try:
+            from .providers.paid import PaidApiProvider
+        except ImportError:
+            print("paid_fallback is enabled but the paid provider is not installed yet; continuing without it", file=sys.stderr)
+        else:
+            providers.append(PaidApiProvider.from_env(settings, ROOT / "data" / "spend.json"))
     return providers
 
 

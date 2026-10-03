@@ -1,0 +1,67 @@
+name: Scrape flights
+
+on:
+  schedule:
+    - cron: "0 5,12,19 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# Never run two scrapes at once; a new one waits for the running one.
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    outputs:
+      exit_code: ${{ steps.run.outputs.exit_code }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      - name: Run scraper
+        id: run
+        env:
+          IGNAV_API_KEY: ${{ secrets.IGNAV_API_KEY }}
+        run: |
+          set +e
+          python -m scraper.run
+          code=$?
+          echo "exit_code=$code" >> "$GITHUB_OUTPUT"
+          if [ "$code" = "2" ]; then echo "::warning::Google blocked this run. Results so far were kept; nothing was marked as unavailable."; fi
+          exit 0
+
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then echo "No changes to commit"; exit 0; fi
+          git commit -q -m "Results $(date -u +%Y-%m-%dT%H:%MZ)"
+          # The UI may have committed config/searches.json meanwhile: rebase and retry.
+          for i in 1 2 3 4 5; do
+            git pull -q --rebase origin main && git push -q origin HEAD:main && exit 0
+            sleep $((i * 5))
+          done
+          echo "::error::Could not push results"; exit 1
+
+      - name: Fail on scraper crash
+        if: steps.run.outputs.exit_code != '0' && steps.run.outputs.exit_code != '2'
+        run: |
+          echo "::error::Scraper exited with code ${{ steps.run.outputs.exit_code }}"
+          exit 1
+
+  publish:
+    needs: scrape
+    if: always() && needs.scrape.result != 'cancelled'
+    uses: ./.github/workflows/pages.yml

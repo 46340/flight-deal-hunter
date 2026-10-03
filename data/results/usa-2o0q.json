@@ -20,7 +20,7 @@
    "ret_from": "JFK",
    "ret_to": "BER",
    "separate_price": 2667.0,
-   "last_seen": "2026-10-03T15:44:50Z",
+   "last_seen": "2026-10-03T21:59:40Z",
    "available": true
   },
   {
@@ -41,7 +41,7 @@
    "ret_from": "JFK",
    "ret_to": "BER",
    "separate_price": 2588.0,
-   "last_seen": "2026-10-03T15:44:50Z",
+   "last_seen": "2026-10-03T21:59:40Z",
    "available": true
   },
   {
@@ -63,7 +63,7 @@
    "ret_from": "JFK",
    "ret_to": "BER",
    "separate_price": 2667.0,
-   "last_seen": "2026-10-03T15:44:50Z",
+   "last_seen": "2026-10-03T21:59:40Z",
    "available": true
   },
   {
@@ -85,7 +85,7 @@
    "ret_from": "JFK",
    "ret_to": "BER",
    "separate_price": 2667.0,
-   "last_seen": "2026-10-03T15:44:50Z",
+   "last_seen": "2026-10-03T21:59:40Z",
    "available": true
   },
   {
@@ -106,7 +106,7 @@
    "ret_from": "JFK",
    "ret_to": "BER",
    "separate_price": 2667.0,
-   "last_seen": "2026-10-03T15:44:50Z",
+   "last_seen": "2026-10-03T21:59:40Z",
    "available": true
   },
   {
@@ -128,7 +128,7 @@
    "ret_from": "LGA",
    "ret_to": "BER",
    "separate_price": 3146.0,
-   "last_seen": "2026-10-03T15:44:50Z",
+   "last_seen": "2026-10-03T21:59:40Z",
    "available": true
   },
   {
@@ -150,7 +150,29 @@
    "ret_from": "JFK",
    "ret_to": "BER",
    "separate_price": 2667.0,
-   "last_seen": "2026-10-03T15:44:50Z",
+   "last_seen": "2026-10-03T21:59:40Z",
+   "available": true
+  },
+  {
+   "key": "BER-JFK-2026-12-05|JFK-BER-2026-12-06",
+   "first_seen": "2026-10-03T12:07:19Z",
+   "out_date": "2026-12-05",
+   "out_from": "BER",
+   "out_to": "JFK",
+   "price": 1864.0,
+   "ticket_type": "single",
+   "airlines": [
+    "British Airways",
+    "American"
+   ],
+   "links": [
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTItMDVqBRIDQkVScgUSA0pGSxoaEgoyMDI2LTEyLTA2agUSA0pGS3IFEgNCRVJCAQFIAYgBAZgBAQ==&hl=en-US&curr=PLN"
+   ],
+   "ret_date": "2026-12-06",
+   "ret_from": "JFK",
+   "ret_to": "BER",
+   "separate_price": 2667.0,
+   "last_seen": "2026-10-03T21:59:40Z",
    "available": true
   },
   {
@@ -171,28 +193,7 @@
    "ret_from": "JFK",
    "ret_to": "BER",
    "separate_price": 2667.0,
-   "last_seen": "2026-10-03T15:44:50Z",
-   "available": true
-  },
-  {
-   "key": "BER-JFK-2026-12-05|JFK-BER-2026-12-06",
-   "first_seen": "2026-10-03T12:07:19Z",
-   "out_date": "2026-12-05",
-   "out_from": "BER",
-   "out_to": "JFK",
-   "price": 1880.0,
-   "ticket_type": "single",
-   "airlines": [
-    "Finnair"
-   ],
-   "links": [
-    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTItMDVqBRIDQkVScgUSA0pGSxoaEgoyMDI2LTEyLTA2agUSA0pGS3IFEgNCRVJCAQFIAYgBAZgBAQ==&hl=en-US&curr=PLN"
-   ],
-   "ret_date": "2026-12-06",
-   "ret_from": "JFK",
-   "ret_to": "BER",
-   "separate_price": 2667.0,
-   "last_seen": "2026-10-03T15:44:50Z",
+   "last_seen": "2026-10-03T21:59:40Z",
    "available": true
   },
   {
@@ -214,7 +215,7 @@
    "ret_from": "EWR",
    "ret_to": "HAM",
    "separate_price": 3214.0,
-   "last_seen": "2026-10-03T15:44:50Z",
+   "last_seen": "2026-10-03T21:59:40Z",
    "available": true
   },
   {
@@ -236,7 +237,7 @@
    "ret_from": "LGA",
    "ret_to": "HAJ",
    "separate_price": 3130.0,
-   "last_seen": "2026-10-03T15:44:50Z",
+   "last_seen": "2026-10-03T21:59:40Z",
    "available": true
   },
   {
@@ -258,7 +259,7 @@
    "ret_from": "PHL",
    "ret_to": "HAM",
    "separate_price": 3095.0,
-   "last_seen": "2026-10-03T15:44:50Z",
+   "last_seen": "2026-10-03T21:59:40Z",
    "available": true
   }
  ],
@@ -292,6 +293,21 @@
    "ret_from": "JFK",
    "ret_to": "BER",
    "separate_price": 2588.0
+  },
+  {
+   "run": "2026-10-03T21:59:40Z",
+   "out_date": "2026-12-02",
+   "out_from": "BER",
+   "out_to": "JFK",
+   "price": 1842.0,
+   "ticket_type": "single",
+   "airlines": [
+    "British Airways"
+   ],
+   "ret_date": "2026-12-06",
+   "ret_from": "JFK",
+   "ret_to": "BER",
+   "separate_price": 2588.0
   }
  ],
  "runs": [
@@ -308,7 +324,14 @@
    "provider": "google",
    "status": "ok",
    "errors": []
+  },
+  {
+   "run": "2026-10-03T21:59:40Z",
+   "searches": 620,
+   "provider": "google",
+   "status": "ok",
+   "errors": []
   }
  ],
- "updated": "2026-10-03T15:44:50Z"
+ "updated": "2026-10-03T21:59:40Z"
 }

@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "searches": [
+    {
+      "id": "smoke-cph-lon",
+      "name": "Smoke test: Denmark to London",
+      "status": "active",
+      "created": "2026-10-03",
+      "tracking_days": 30,
+      "trip_type": "return",
+      "origins": ["CPH", "BLL"],
+      "destinations": ["LHR", "LGW"],
+      "earliest_out": "2026-11-04",
+      "latest_return": "2026-11-08",
+      "min_stay": 2,
+      "max_stay": 3,
+      "price_cap": 1500,
+      "currency": "DKK"
+    }
+  ]
+}

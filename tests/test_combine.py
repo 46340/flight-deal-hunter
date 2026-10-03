@@ -85,7 +85,7 @@ def _trips(n, start=1000, step=100, kind="round-trip"):
 def test_selection_top_n_and_near_cap(settings):
     settings.update(reprice_top_n=3, reprice_cap_factor=1.3, reprice_per_pair=0, reprice_max_per_search=100)
     s = make_search(price_cap=1500)
-    trips = _trips(20, kind="multi-city")  # 1000, 1100, ... 2900
+    trips = _trips(20)  # 1000, 1100, ... 2900
     chosen = select_for_repricing(trips, s, settings)
     prices = sorted(t.separate_total for t in chosen)
     assert prices == [p for p in range(1000, 2000, 100) if p <= 1950]  # top 3 + all <= 1950
@@ -101,18 +101,22 @@ def test_selection_respects_max(settings):
 def test_selection_adds_cheapest_round_trip_per_pair(settings):
     settings.update(reprice_top_n=2, reprice_cap_factor=0.1, reprice_per_pair=1, reprice_max_per_search=60)
     s = make_search(price_cap=100)
-    multi = _trips(5, kind="multi-city")
     rt_other_pair = Trip(out=LegKey("HAM", "IAD", date(2026, 11, 1), "DKK"), out_fare=fare(9000),
                          ret=LegKey("IAD", "HAM", date(2026, 11, 5), "DKK"), ret_fare=fare(0))
-    trips = sorted(multi + [rt_other_pair], key=lambda t: t.separate_total)
+    trips = sorted(_trips(5) + [rt_other_pair], key=lambda t: t.separate_total)
     chosen = select_for_repricing(trips, s, settings)
     assert rt_other_pair in chosen
     assert len(chosen) == 3
 
 
+def test_open_jaw_trips_are_never_repriced(settings):
+    settings.update(reprice_top_n=30, reprice_cap_factor=10)
+    assert select_for_repricing(_trips(5, kind="multi-city"), make_search(price_cap=5000), settings) == []
+
+
 def test_selection_keeps_previous_deals(settings):
     settings.update(reprice_top_n=1, reprice_cap_factor=0, reprice_per_pair=0)
-    trips = _trips(10, kind="multi-city")
+    trips = _trips(10)
     keep = {trips[7].key}
     chosen = select_for_repricing(trips, make_search(price_cap=100), settings, keep_keys=keep)
     assert trips[7] in chosen and trips[0] in chosen and len(chosen) == 2

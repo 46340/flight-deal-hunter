@@ -3,8 +3,13 @@ name: Probe Google Flights
 on:
   workflow_dispatch:
     inputs:
+      mode:
+        description: "probe = 10 raw queries; smoke = real pipeline on config/searches.smoke.json"
+        type: choice
+        options: [probe, smoke]
+        default: probe
       out_date:
-        description: "Outbound date (YYYY-MM-DD), blank for 32 days from today"
+        description: "Probe outbound date (YYYY-MM-DD), blank for 32 days from today"
         required: false
 
 permissions:
@@ -13,7 +18,7 @@ permissions:
 jobs:
   probe:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -22,12 +27,18 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt
       - name: Probe
+        if: inputs.mode == 'probe'
         env:
           OUT_DATE: ${{ inputs.out_date }}
-        run: python scripts/probe_google.py --save-dir probe-pages ${OUT_DATE:+--out-date "$OUT_DATE"}
+        run: python scripts/probe_google.py --save-dir probe-out ${OUT_DATE:+--out-date "$OUT_DATE"}
+      - name: Smoke run
+        if: inputs.mode == 'smoke'
+        run: |
+          python -m scraper.run --config config/searches.smoke.json --data-dir probe-out
+          cat probe-out/runs.json
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: probe-pages
-          path: probe-pages/
+          name: probe-out
+          path: probe-out/
           retention-days: 7

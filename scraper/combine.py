@@ -64,9 +64,14 @@ def select_for_repricing(
     2. Anything within cap x factor (so every potential deal gets a single-ticket check).
     3. The cheapest same-airport-pair trips per (origin, destination), because a
        round-trip ticket is often far cheaper than two one-ways on the same route.
+
+    Only round-trips (same airport pair both ways) are re-priced. Open-jaw trips
+    would need a multi-city search, which Google Flights does not return in the
+    page HTML, so they stay as two separate tickets.
     """
     if search.trip_type == "one-way":
         return []
+    trips = [t for t in trips if t.itinerary_kind == "round-trip"]
     top_n = int(settings["reprice_top_n"])
     limit = search.price_cap * float(settings["reprice_cap_factor"])
     per_pair = int(settings["reprice_per_pair"])

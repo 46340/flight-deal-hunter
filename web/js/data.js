@@ -54,6 +54,20 @@ export class Store {
     return this;
   }
 
+  /** Results file for a search, or null if no run has written one yet. */
+  async loadResults(id) {
+    const path = `data/results/${encodeURIComponent(id)}.json`;
+    if (this.canSave) {
+      try {
+        const { json } = await this.gh.getJson(path);
+        if (json) return json;
+      } catch (e) {
+        console.warn("GitHub read failed, using published copy", e);
+      }
+    }
+    return this.fetchStatic(path, null);
+  }
+
   configWith(search) {
     const searches = this.searches.filter((s) => s.id !== search.id);
     const idx = this.searches.findIndex((s) => s.id === search.id);

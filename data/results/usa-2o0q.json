@@ -8,7 +8,7 @@
    "out_date": "2026-12-04",
    "out_from": "BER",
    "out_to": "PHL",
-   "price": 1796.0,
+   "price": 1797.0,
    "ticket_type": "single",
    "airlines": [
     "Aer Lingus"
@@ -19,8 +19,8 @@
    "ret_date": "2026-12-06",
    "ret_from": "PHL",
    "ret_to": "BER",
-   "separate_price": 2976.0,
-   "last_seen": "2026-10-04T10:54:02Z",
+   "separate_price": 2977.0,
+   "last_seen": "2026-10-04T16:28:18Z",
    "available": true
   },
   {
@@ -29,7 +29,7 @@
    "out_date": "2026-12-04",
    "out_from": "BER",
    "out_to": "PHL",
-   "price": 1796.0,
+   "price": 1797.0,
    "ticket_type": "single",
    "airlines": [
     "Aer Lingus"
@@ -40,52 +40,9 @@
    "ret_date": "2026-12-08",
    "ret_from": "PHL",
    "ret_to": "BER",
-   "separate_price": 2976.0,
-   "last_seen": "2026-10-04T10:54:02Z",
+   "separate_price": 2977.0,
+   "last_seen": "2026-10-04T16:28:18Z",
    "available": true
-  },
-  {
-   "key": "BER-JFK-2026-12-02|JFK-BER-2026-12-06",
-   "first_seen": "2026-10-03T12:07:19Z",
-   "out_date": "2026-12-02",
-   "out_from": "BER",
-   "out_to": "JFK",
-   "price": 1842.0,
-   "ticket_type": "single",
-   "airlines": [
-    "British Airways"
-   ],
-   "links": [
-    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTItMDJqBRIDQkVScgUSA0pGSxoaEgoyMDI2LTEyLTA2agUSA0pGS3IFEgNCRVJCAQFIAYgBAZgBAQ==&hl=en-US&curr=PLN"
-   ],
-   "ret_date": "2026-12-06",
-   "ret_from": "JFK",
-   "ret_to": "BER",
-   "separate_price": 2588.0,
-   "last_seen": "2026-10-03T21:59:40Z",
-   "available": false
-  },
-  {
-   "key": "BER-JFK-2026-12-04|JFK-BER-2026-12-06",
-   "first_seen": "2026-10-03T12:07:19Z",
-   "out_date": "2026-12-04",
-   "out_from": "BER",
-   "out_to": "JFK",
-   "price": 1842.0,
-   "ticket_type": "single",
-   "airlines": [
-    "British Airways",
-    "American"
-   ],
-   "links": [
-    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTItMDRqBRIDQkVScgUSA0pGSxoaEgoyMDI2LTEyLTA2agUSA0pGS3IFEgNCRVJCAQFIAYgBAZgBAQ==&hl=en-US&curr=PLN"
-   ],
-   "ret_date": "2026-12-06",
-   "ret_from": "JFK",
-   "ret_to": "BER",
-   "separate_price": 2667.0,
-   "last_seen": "2026-10-03T21:59:40Z",
-   "available": false
   },
   {
    "key": "BER-JFK-2026-12-01|JFK-BER-2026-12-06",
@@ -105,7 +62,50 @@
    "ret_from": "JFK",
    "ret_to": "BER",
    "separate_price": 2531.0,
-   "last_seen": "2026-10-04T10:54:02Z",
+   "last_seen": "2026-10-04T16:28:18Z",
+   "available": true
+  },
+  {
+   "key": "BER-JFK-2026-12-02|JFK-BER-2026-12-06",
+   "first_seen": "2026-10-03T12:07:19Z",
+   "out_date": "2026-12-02",
+   "out_from": "BER",
+   "out_to": "JFK",
+   "price": 1843.0,
+   "ticket_type": "single",
+   "airlines": [
+    "British Airways"
+   ],
+   "links": [
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTItMDJqBRIDQkVScgUSA0pGSxoaEgoyMDI2LTEyLTA2agUSA0pGS3IFEgNCRVJCAQFIAYgBAZgBAQ==&hl=en-US&curr=PLN"
+   ],
+   "ret_date": "2026-12-06",
+   "ret_from": "JFK",
+   "ret_to": "BER",
+   "separate_price": 2453.0,
+   "last_seen": "2026-10-04T16:28:18Z",
+   "available": true
+  },
+  {
+   "key": "BER-JFK-2026-12-04|JFK-BER-2026-12-06",
+   "first_seen": "2026-10-03T12:07:19Z",
+   "out_date": "2026-12-04",
+   "out_from": "BER",
+   "out_to": "JFK",
+   "price": 1843.0,
+   "ticket_type": "single",
+   "airlines": [
+    "British Airways",
+    "American"
+   ],
+   "links": [
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTItMDRqBRIDQkVScgUSA0pGSxoaEgoyMDI2LTEyLTA2agUSA0pGS3IFEgNCRVJCAQFIAYgBAZgBAQ==&hl=en-US&curr=PLN"
+   ],
+   "ret_date": "2026-12-06",
+   "ret_from": "JFK",
+   "ret_to": "BER",
+   "separate_price": 2531.0,
+   "last_seen": "2026-10-04T16:28:18Z",
    "available": true
   },
   {
@@ -127,7 +127,7 @@
    "ret_from": "JFK",
    "ret_to": "BER",
    "separate_price": 2531.0,
-   "last_seen": "2026-10-04T10:54:02Z",
+   "last_seen": "2026-10-04T16:28:18Z",
    "available": true
   },
   {
@@ -148,7 +148,7 @@
    "ret_from": "JFK",
    "ret_to": "BER",
    "separate_price": 2531.0,
-   "last_seen": "2026-10-04T10:54:02Z",
+   "last_seen": "2026-10-04T16:28:18Z",
    "available": true
   },
   {
@@ -169,7 +169,7 @@
    "ret_from": "EWR",
    "ret_to": "HAM",
    "separate_price": 3214.0,
-   "last_seen": "2026-10-04T10:54:02Z",
+   "last_seen": "2026-10-04T16:28:18Z",
    "available": true
   },
   {
@@ -191,8 +191,8 @@
    "ret_from": "LGA",
    "ret_to": "BER",
    "separate_price": 3146.0,
-   "last_seen": "2026-10-03T21:59:40Z",
-   "available": false
+   "last_seen": "2026-10-04T16:28:18Z",
+   "available": true
   },
   {
    "key": "BER-JFK-2026-12-03|JFK-BER-2026-12-10",
@@ -213,7 +213,7 @@
    "ret_from": "JFK",
    "ret_to": "BER",
    "separate_price": 2531.0,
-   "last_seen": "2026-10-04T10:54:02Z",
+   "last_seen": "2026-10-04T16:28:18Z",
    "available": true
   },
   {
@@ -235,7 +235,7 @@
    "ret_from": "JFK",
    "ret_to": "BER",
    "separate_price": 2531.0,
-   "last_seen": "2026-10-04T10:54:02Z",
+   "last_seen": "2026-10-04T16:28:18Z",
    "available": true
   },
   {
@@ -256,7 +256,7 @@
    "ret_from": "JFK",
    "ret_to": "BER",
    "separate_price": 2531.0,
-   "last_seen": "2026-10-04T10:54:02Z",
+   "last_seen": "2026-10-04T16:28:18Z",
    "available": true
   },
   {
@@ -322,7 +322,7 @@
    "ret_from": "PHL",
    "ret_to": "HAM",
    "separate_price": 3095.0,
-   "last_seen": "2026-10-04T10:54:02Z",
+   "last_seen": "2026-10-04T16:28:18Z",
    "available": true
   }
  ],
@@ -386,6 +386,21 @@
    "ret_from": "PHL",
    "ret_to": "BER",
    "separate_price": 2976.0
+  },
+  {
+   "run": "2026-10-04T16:28:18Z",
+   "out_date": "2026-12-04",
+   "out_from": "BER",
+   "out_to": "PHL",
+   "price": 1797.0,
+   "ticket_type": "single",
+   "airlines": [
+    "Aer Lingus"
+   ],
+   "ret_date": "2026-12-06",
+   "ret_from": "PHL",
+   "ret_to": "BER",
+   "separate_price": 2977.0
   }
  ],
  "runs": [
@@ -416,7 +431,14 @@
    "provider": "google",
    "status": "ok",
    "errors": []
+  },
+  {
+   "run": "2026-10-04T16:28:18Z",
+   "searches": 620,
+   "provider": "google",
+   "status": "ok",
+   "errors": []
   }
  ],
- "updated": "2026-10-04T10:54:02Z"
+ "updated": "2026-10-04T16:28:18Z"
 }

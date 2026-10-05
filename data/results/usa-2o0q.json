@@ -3,6 +3,48 @@
  "currency": "PLN",
  "deals": [
   {
+   "key": "BER-PHL-2026-12-04|PHL-BER-2026-12-06",
+   "first_seen": "2026-10-04T10:54:02Z",
+   "out_date": "2026-12-04",
+   "out_from": "BER",
+   "out_to": "PHL",
+   "price": 1793.0,
+   "ticket_type": "single",
+   "airlines": [
+    "Aer Lingus"
+   ],
+   "links": [
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTItMDRqBRIDQkVScgUSA1BITBoaEgoyMDI2LTEyLTA2agUSA1BITHIFEgNCRVJCAQFIAYgBAZgBAQ==&hl=en-US&curr=PLN"
+   ],
+   "ret_date": "2026-12-06",
+   "ret_from": "PHL",
+   "ret_to": "BER",
+   "separate_price": 2982.0,
+   "last_seen": "2026-10-05T12:02:52Z",
+   "available": true
+  },
+  {
+   "key": "BER-PHL-2026-12-04|PHL-BER-2026-12-08",
+   "first_seen": "2026-10-04T10:54:02Z",
+   "out_date": "2026-12-04",
+   "out_from": "BER",
+   "out_to": "PHL",
+   "price": 1793.0,
+   "ticket_type": "single",
+   "airlines": [
+    "Aer Lingus"
+   ],
+   "links": [
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTItMDRqBRIDQkVScgUSA1BITBoaEgoyMDI2LTEyLTA4agUSA1BITHIFEgNCRVJCAQFIAYgBAZgBAQ==&hl=en-US&curr=PLN"
+   ],
+   "ret_date": "2026-12-08",
+   "ret_from": "PHL",
+   "ret_to": "BER",
+   "separate_price": 2982.0,
+   "last_seen": "2026-10-05T12:02:52Z",
+   "available": true
+  },
+  {
    "key": "BER-PHL-2026-11-30|PHL-BER-2026-12-06",
    "first_seen": "2026-10-04T22:12:17Z",
    "out_date": "2026-11-30",
@@ -21,48 +63,50 @@
    "ret_to": "BER",
    "separate_price": 2975.0,
    "last_seen": "2026-10-04T22:12:17Z",
-   "available": true
+   "available": false
   },
   {
-   "key": "BER-PHL-2026-12-04|PHL-BER-2026-12-06",
-   "first_seen": "2026-10-04T10:54:02Z",
+   "key": "BER-JFK-2026-12-04|JFK-BER-2026-12-06",
+   "first_seen": "2026-10-03T12:07:19Z",
    "out_date": "2026-12-04",
    "out_from": "BER",
-   "out_to": "PHL",
-   "price": 1796.0,
+   "out_to": "JFK",
+   "price": 1839.0,
    "ticket_type": "single",
    "airlines": [
-    "Aer Lingus"
+    "British Airways",
+    "American"
    ],
    "links": [
-    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTItMDRqBRIDQkVScgUSA1BITBoaEgoyMDI2LTEyLTA2agUSA1BITHIFEgNCRVJCAQFIAYgBAZgBAQ==&hl=en-US&curr=PLN"
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTItMDRqBRIDQkVScgUSA0pGSxoaEgoyMDI2LTEyLTA2agUSA0pGS3IFEgNCRVJCAQFIAYgBAZgBAQ==&hl=en-US&curr=PLN"
    ],
    "ret_date": "2026-12-06",
-   "ret_from": "PHL",
+   "ret_from": "JFK",
    "ret_to": "BER",
-   "separate_price": 2975.0,
-   "last_seen": "2026-10-04T22:12:17Z",
+   "separate_price": 2534.0,
+   "last_seen": "2026-10-05T12:02:52Z",
    "available": true
   },
   {
-   "key": "BER-PHL-2026-12-04|PHL-BER-2026-12-08",
-   "first_seen": "2026-10-04T10:54:02Z",
+   "key": "BER-JFK-2026-12-04|JFK-BER-2026-12-10",
+   "first_seen": "2026-10-03T12:07:19Z",
    "out_date": "2026-12-04",
    "out_from": "BER",
-   "out_to": "PHL",
-   "price": 1796.0,
+   "out_to": "JFK",
+   "price": 1839.0,
    "ticket_type": "single",
    "airlines": [
-    "Aer Lingus"
+    "British Airways",
+    "American"
    ],
    "links": [
-    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTItMDRqBRIDQkVScgUSA1BITBoaEgoyMDI2LTEyLTA4agUSA1BITHIFEgNCRVJCAQFIAYgBAZgBAQ==&hl=en-US&curr=PLN"
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTItMDRqBRIDQkVScgUSA0pGSxoaEgoyMDI2LTEyLTEwagUSA0pGS3IFEgNCRVJCAQFIAYgBAZgBAQ==&hl=en-US&curr=PLN"
    ],
-   "ret_date": "2026-12-08",
-   "ret_from": "PHL",
+   "ret_date": "2026-12-10",
+   "ret_from": "JFK",
    "ret_to": "BER",
-   "separate_price": 2975.0,
-   "last_seen": "2026-10-04T22:12:17Z",
+   "separate_price": 2671.0,
+   "last_seen": "2026-10-05T12:02:52Z",
    "available": true
   },
   {
@@ -84,7 +128,7 @@
    "ret_to": "BER",
    "separate_price": 2530.0,
    "last_seen": "2026-10-04T22:12:17Z",
-   "available": true
+   "available": false
   },
   {
    "key": "BER-JFK-2026-12-02|JFK-BER-2026-12-06",
@@ -105,51 +149,7 @@
    "ret_to": "BER",
    "separate_price": 2451.0,
    "last_seen": "2026-10-04T22:12:17Z",
-   "available": true
-  },
-  {
-   "key": "BER-JFK-2026-12-04|JFK-BER-2026-12-06",
-   "first_seen": "2026-10-03T12:07:19Z",
-   "out_date": "2026-12-04",
-   "out_from": "BER",
-   "out_to": "JFK",
-   "price": 1842.0,
-   "ticket_type": "single",
-   "airlines": [
-    "British Airways",
-    "American"
-   ],
-   "links": [
-    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTItMDRqBRIDQkVScgUSA0pGSxoaEgoyMDI2LTEyLTA2agUSA0pGS3IFEgNCRVJCAQFIAYgBAZgBAQ==&hl=en-US&curr=PLN"
-   ],
-   "ret_date": "2026-12-06",
-   "ret_from": "JFK",
-   "ret_to": "BER",
-   "separate_price": 2530.0,
-   "last_seen": "2026-10-04T22:12:17Z",
-   "available": true
-  },
-  {
-   "key": "BER-JFK-2026-12-04|JFK-BER-2026-12-10",
-   "first_seen": "2026-10-03T12:07:19Z",
-   "out_date": "2026-12-04",
-   "out_from": "BER",
-   "out_to": "JFK",
-   "price": 1842.0,
-   "ticket_type": "single",
-   "airlines": [
-    "British Airways",
-    "American"
-   ],
-   "links": [
-    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTItMDRqBRIDQkVScgUSA0pGSxoaEgoyMDI2LTEyLTEwagUSA0pGS3IFEgNCRVJCAQFIAYgBAZgBAQ==&hl=en-US&curr=PLN"
-   ],
-   "ret_date": "2026-12-10",
-   "ret_from": "JFK",
-   "ret_to": "BER",
-   "separate_price": 2667.0,
-   "last_seen": "2026-10-04T22:12:17Z",
-   "available": true
+   "available": false
   },
   {
    "key": "HAM-EWR-2026-12-02|EWR-HAM-2026-12-09",
@@ -157,7 +157,7 @@
    "out_date": "2026-12-02",
    "out_from": "HAM",
    "out_to": "EWR",
-   "price": 1852.0,
+   "price": 1849.0,
    "ticket_type": "single",
    "airlines": [
     "British Airways"
@@ -168,8 +168,96 @@
    "ret_date": "2026-12-09",
    "ret_from": "EWR",
    "ret_to": "HAM",
-   "separate_price": 3214.0,
-   "last_seen": "2026-10-04T22:12:17Z",
+   "separate_price": 3220.0,
+   "last_seen": "2026-10-05T12:02:52Z",
+   "available": true
+  },
+  {
+   "key": "BER-JFK-2026-12-03|JFK-BER-2026-12-10",
+   "first_seen": "2026-10-03T12:07:19Z",
+   "out_date": "2026-12-03",
+   "out_from": "BER",
+   "out_to": "JFK",
+   "price": 1861.0,
+   "ticket_type": "single",
+   "airlines": [
+    "British Airways",
+    "American"
+   ],
+   "links": [
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTItMDNqBRIDQkVScgUSA0pGSxoaEgoyMDI2LTEyLTEwagUSA0pGS3IFEgNCRVJCAQFIAYgBAZgBAQ==&hl=en-US&curr=PLN"
+   ],
+   "ret_date": "2026-12-10",
+   "ret_from": "JFK",
+   "ret_to": "BER",
+   "separate_price": 2671.0,
+   "last_seen": "2026-10-05T12:02:52Z",
+   "available": true
+  },
+  {
+   "key": "BER-LGA-2026-12-03|LGA-BER-2026-12-06",
+   "first_seen": "2026-10-05T12:02:52Z",
+   "out_date": "2026-12-03",
+   "out_from": "BER",
+   "out_to": "LGA",
+   "price": 1861.0,
+   "ticket_type": "single",
+   "airlines": [
+    "British Airways",
+    "American"
+   ],
+   "links": [
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTItMDNqBRIDQkVScgUSA0xHQRoaEgoyMDI2LTEyLTA2agUSA0xHQXIFEgNCRVJCAQFIAYgBAZgBAQ==&hl=en-US&curr=PLN"
+   ],
+   "ret_date": "2026-12-06",
+   "ret_from": "LGA",
+   "ret_to": "BER",
+   "separate_price": 3152.0,
+   "last_seen": "2026-10-05T12:02:52Z",
+   "available": true
+  },
+  {
+   "key": "BER-JFK-2026-12-05|JFK-BER-2026-12-10",
+   "first_seen": "2026-10-03T15:44:50Z",
+   "out_date": "2026-12-05",
+   "out_from": "BER",
+   "out_to": "JFK",
+   "price": 1861.0,
+   "ticket_type": "single",
+   "airlines": [
+    "British Airways",
+    "American"
+   ],
+   "links": [
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTItMDVqBRIDQkVScgUSA0pGSxoaEgoyMDI2LTEyLTEwagUSA0pGS3IFEgNCRVJCAQFIAYgBAZgBAQ==&hl=en-US&curr=PLN"
+   ],
+   "ret_date": "2026-12-10",
+   "ret_from": "JFK",
+   "ret_to": "BER",
+   "separate_price": 2671.0,
+   "last_seen": "2026-10-05T12:02:52Z",
+   "available": true
+  },
+  {
+   "key": "BER-JFK-2026-12-05|JFK-BER-2026-12-06",
+   "first_seen": "2026-10-03T12:07:19Z",
+   "out_date": "2026-12-05",
+   "out_from": "BER",
+   "out_to": "JFK",
+   "price": 1861.0,
+   "ticket_type": "single",
+   "airlines": [
+    "British Airways",
+    "American"
+   ],
+   "links": [
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTItMDVqBRIDQkVScgUSA0pGSxoaEgoyMDI2LTEyLTA2agUSA0pGS3IFEgNCRVJCAQFIAYgBAZgBAQ==&hl=en-US&curr=PLN"
+   ],
+   "ret_date": "2026-12-06",
+   "ret_from": "JFK",
+   "ret_to": "BER",
+   "separate_price": 2534.0,
+   "last_seen": "2026-10-05T12:02:52Z",
    "available": true
   },
   {
@@ -192,72 +280,28 @@
    "ret_to": "BER",
    "separate_price": 3145.0,
    "last_seen": "2026-10-04T22:12:17Z",
-   "available": true
+   "available": false
   },
   {
-   "key": "BER-JFK-2026-12-03|JFK-BER-2026-12-10",
-   "first_seen": "2026-10-03T12:07:19Z",
-   "out_date": "2026-12-03",
-   "out_from": "BER",
-   "out_to": "JFK",
-   "price": 1864.0,
+   "key": "HAM-LGA-2026-12-02|LGA-HAM-2026-12-07",
+   "first_seen": "2026-10-05T12:02:52Z",
+   "out_date": "2026-12-02",
+   "out_from": "HAM",
+   "out_to": "LGA",
+   "price": 1871.0,
    "ticket_type": "single",
    "airlines": [
     "British Airways",
     "American"
    ],
    "links": [
-    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTItMDNqBRIDQkVScgUSA0pGSxoaEgoyMDI2LTEyLTEwagUSA0pGS3IFEgNCRVJCAQFIAYgBAZgBAQ==&hl=en-US&curr=PLN"
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTItMDJqBRIDSEFNcgUSA0xHQRoaEgoyMDI2LTEyLTA3agUSA0xHQXIFEgNIQU1CAQFIAYgBAZgBAQ==&hl=en-US&curr=PLN"
    ],
-   "ret_date": "2026-12-10",
-   "ret_from": "JFK",
-   "ret_to": "BER",
-   "separate_price": 2667.0,
-   "last_seen": "2026-10-04T22:12:17Z",
-   "available": true
-  },
-  {
-   "key": "BER-JFK-2026-12-05|JFK-BER-2026-12-10",
-   "first_seen": "2026-10-03T15:44:50Z",
-   "out_date": "2026-12-05",
-   "out_from": "BER",
-   "out_to": "JFK",
-   "price": 1864.0,
-   "ticket_type": "single",
-   "airlines": [
-    "British Airways",
-    "American"
-   ],
-   "links": [
-    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTItMDVqBRIDQkVScgUSA0pGSxoaEgoyMDI2LTEyLTEwagUSA0pGS3IFEgNCRVJCAQFIAYgBAZgBAQ==&hl=en-US&curr=PLN"
-   ],
-   "ret_date": "2026-12-10",
-   "ret_from": "JFK",
-   "ret_to": "BER",
-   "separate_price": 2667.0,
-   "last_seen": "2026-10-04T22:12:17Z",
-   "available": true
-  },
-  {
-   "key": "BER-JFK-2026-12-05|JFK-BER-2026-12-06",
-   "first_seen": "2026-10-03T12:07:19Z",
-   "out_date": "2026-12-05",
-   "out_from": "BER",
-   "out_to": "JFK",
-   "price": 1864.0,
-   "ticket_type": "single",
-   "airlines": [
-    "British Airways",
-    "American"
-   ],
-   "links": [
-    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTItMDVqBRIDQkVScgUSA0pGSxoaEgoyMDI2LTEyLTA2agUSA0pGS3IFEgNCRVJCAQFIAYgBAZgBAQ==&hl=en-US&curr=PLN"
-   ],
-   "ret_date": "2026-12-06",
-   "ret_from": "JFK",
-   "ret_to": "BER",
-   "separate_price": 2530.0,
-   "last_seen": "2026-10-04T22:12:17Z",
+   "ret_date": "2026-12-07",
+   "ret_from": "LGA",
+   "ret_to": "HAM",
+   "separate_price": 3042.0,
+   "last_seen": "2026-10-05T12:02:52Z",
    "available": true
   },
   {
@@ -266,7 +310,7 @@
    "out_date": "2026-12-03",
    "out_from": "BER",
    "out_to": "JFK",
-   "price": 1880.0,
+   "price": 1877.0,
    "ticket_type": "single",
    "airlines": [
     "Finnair"
@@ -277,8 +321,29 @@
    "ret_date": "2026-12-06",
    "ret_from": "JFK",
    "ret_to": "BER",
-   "separate_price": 2530.0,
-   "last_seen": "2026-10-04T22:12:17Z",
+   "separate_price": 2534.0,
+   "last_seen": "2026-10-05T12:02:52Z",
+   "available": true
+  },
+  {
+   "key": "HAM-JFK-2026-12-03|JFK-HAM-2026-12-09",
+   "first_seen": "2026-10-05T12:02:52Z",
+   "out_date": "2026-12-03",
+   "out_from": "HAM",
+   "out_to": "JFK",
+   "price": 1893.0,
+   "ticket_type": "single",
+   "airlines": [
+    "Finnair"
+   ],
+   "links": [
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTItMDNqBRIDSEFNcgUSA0pGSxoaEgoyMDI2LTEyLTA5agUSA0pGS3IFEgNIQU1CAQFIAYgBAZgBAQ==&hl=en-US&curr=PLN"
+   ],
+   "ret_date": "2026-12-09",
+   "ret_from": "JFK",
+   "ret_to": "HAM",
+   "separate_price": 2888.0,
+   "last_seen": "2026-10-05T12:02:52Z",
    "available": true
   },
   {
@@ -309,7 +374,7 @@
    "out_date": "2026-12-01",
    "out_from": "HAJ",
    "out_to": "LGA",
-   "price": 1930.0,
+   "price": 1927.0,
    "ticket_type": "single",
    "airlines": [
     "British Airways",
@@ -321,8 +386,8 @@
    "ret_date": "2026-12-06",
    "ret_from": "LGA",
    "ret_to": "HAJ",
-   "separate_price": 3130.0,
-   "last_seen": "2026-10-04T22:12:17Z",
+   "separate_price": 3136.0,
+   "last_seen": "2026-10-05T12:02:52Z",
    "available": true
   },
   {
@@ -331,7 +396,7 @@
    "out_date": "2026-12-01",
    "out_from": "HAJ",
    "out_to": "LGA",
-   "price": 1930.0,
+   "price": 1927.0,
    "ticket_type": "single",
    "airlines": [
     "British Airways",
@@ -343,8 +408,8 @@
    "ret_date": "2026-12-07",
    "ret_from": "LGA",
    "ret_to": "HAJ",
-   "separate_price": 3130.0,
-   "last_seen": "2026-10-04T22:12:17Z",
+   "separate_price": 3136.0,
+   "last_seen": "2026-10-05T12:02:52Z",
    "available": true
   },
   {
@@ -367,6 +432,71 @@
    "ret_to": "HAM",
    "separate_price": 3421.0,
    "last_seen": "2026-10-04T22:12:17Z",
+   "available": false
+  },
+  {
+   "key": "BER-PHL-2026-12-02|PHL-BER-2026-12-06",
+   "first_seen": "2026-10-05T12:02:52Z",
+   "out_date": "2026-12-02",
+   "out_from": "BER",
+   "out_to": "PHL",
+   "price": 1939.0,
+   "ticket_type": "single",
+   "airlines": [
+    "Iberia",
+    "American"
+   ],
+   "links": [
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTItMDJqBRIDQkVScgUSA1BITBoaEgoyMDI2LTEyLTA2agUSA1BITHIFEgNCRVJCAQFIAYgBAZgBAQ==&hl=en-US&curr=PLN"
+   ],
+   "ret_date": "2026-12-06",
+   "ret_from": "PHL",
+   "ret_to": "BER",
+   "separate_price": 2982.0,
+   "last_seen": "2026-10-05T12:02:52Z",
+   "available": true
+  },
+  {
+   "key": "HAM-PHL-2026-12-02|PHL-HAM-2026-12-07",
+   "first_seen": "2026-10-05T12:02:52Z",
+   "out_date": "2026-12-02",
+   "out_from": "HAM",
+   "out_to": "PHL",
+   "price": 1976.0,
+   "ticket_type": "single",
+   "airlines": [
+    "British Airways"
+   ],
+   "links": [
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTItMDJqBRIDSEFNcgUSA1BITBoaEgoyMDI2LTEyLTA3agUSA1BITHIFEgNIQU1CAQFIAYgBAZgBAQ==&hl=en-US&curr=PLN"
+   ],
+   "ret_date": "2026-12-07",
+   "ret_from": "PHL",
+   "ret_to": "HAM",
+   "separate_price": 3118.0,
+   "last_seen": "2026-10-05T12:02:52Z",
+   "available": true
+  },
+  {
+   "key": "HAM-LGA-2026-12-02|LGA-HAM-2026-12-06",
+   "first_seen": "2026-10-05T12:02:52Z",
+   "out_date": "2026-12-02",
+   "out_from": "HAM",
+   "out_to": "LGA",
+   "price": 2000.0,
+   "ticket_type": "single",
+   "airlines": [
+    "KLM",
+    "Delta"
+   ],
+   "links": [
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTItMDJqBRIDSEFNcgUSA0xHQRoaEgoyMDI2LTEyLTA2agUSA0xHQXIFEgNIQU1CAQFIAYgBAZgBAQ==&hl=en-US&curr=PLN"
+   ],
+   "ret_date": "2026-12-06",
+   "ret_from": "LGA",
+   "ret_to": "HAM",
+   "separate_price": 3042.0,
+   "last_seen": "2026-10-05T12:02:52Z",
    "available": true
   }
  ],
@@ -460,6 +590,21 @@
    "ret_from": "PHL",
    "ret_to": "BER",
    "separate_price": 2975.0
+  },
+  {
+   "run": "2026-10-05T12:02:52Z",
+   "out_date": "2026-12-04",
+   "out_from": "BER",
+   "out_to": "PHL",
+   "price": 1793.0,
+   "ticket_type": "single",
+   "airlines": [
+    "Aer Lingus"
+   ],
+   "ret_date": "2026-12-06",
+   "ret_from": "PHL",
+   "ret_to": "BER",
+   "separate_price": 2982.0
   }
  ],
  "runs": [
@@ -504,7 +649,14 @@
    "provider": "google",
    "status": "ok",
    "errors": []
+  },
+  {
+   "run": "2026-10-05T12:02:52Z",
+   "searches": 620,
+   "provider": "google",
+   "status": "ok",
+   "errors": []
   }
  ],
- "updated": "2026-10-04T22:12:17Z"
+ "updated": "2026-10-05T12:02:52Z"
 }

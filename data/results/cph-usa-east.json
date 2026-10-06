@@ -21,7 +21,7 @@
    "ret_to": "CPH",
    "separate_price": 3048.0,
    "last_seen": "2026-10-06T17:57:37Z",
-   "available": true
+   "available": false
   },
   {
    "key": "CPH-JFK-2026-11-30|JFK-CPH-2026-12-06",
@@ -50,10 +50,10 @@
    "out_date": "2026-12-01",
    "out_from": "CPH",
    "out_to": "JFK",
-   "price": 2050.0,
+   "price": 2044.0,
    "ticket_type": "single",
    "airlines": [
-    "Icelandair"
+    "Finnair"
    ],
    "links": [
     "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTItMDFqBRIDQ1BIcgUSA0pGSxoaEgoyMDI2LTEyLTA4agUSA0pGS3IFEgNDUEhCAQFIAYgBAZgBAQ==&hl=en-US&curr=PLN"
@@ -61,8 +61,8 @@
    "ret_date": "2026-12-08",
    "ret_from": "JFK",
    "ret_to": "CPH",
-   "separate_price": 3048.0,
-   "last_seen": "2026-10-06T17:57:37Z",
+   "separate_price": 3049.0,
+   "last_seen": "2026-10-06T22:53:14Z",
    "available": true
   },
   {
@@ -71,7 +71,7 @@
    "out_date": "2026-12-02",
    "out_from": "CPH",
    "out_to": "EWR",
-   "price": 2050.0,
+   "price": 2052.0,
    "ticket_type": "single",
    "airlines": [
     "Icelandair"
@@ -82,8 +82,8 @@
    "ret_date": "2026-12-09",
    "ret_from": "EWR",
    "ret_to": "CPH",
-   "separate_price": 3048.0,
-   "last_seen": "2026-10-06T17:57:37Z",
+   "separate_price": 3049.0,
+   "last_seen": "2026-10-06T22:53:14Z",
    "available": true
   },
   {
@@ -92,7 +92,7 @@
    "out_date": "2026-12-01",
    "out_from": "CPH",
    "out_to": "EWR",
-   "price": 2108.0,
+   "price": 2111.0,
    "ticket_type": "single",
    "airlines": [
     "Icelandair"
@@ -103,8 +103,8 @@
    "ret_date": "2026-12-07",
    "ret_from": "EWR",
    "ret_to": "CPH",
-   "separate_price": 3048.0,
-   "last_seen": "2026-10-06T17:57:37Z",
+   "separate_price": 3049.0,
+   "last_seen": "2026-10-06T22:53:14Z",
    "available": true
   },
   {
@@ -113,7 +113,7 @@
    "out_date": "2026-12-01",
    "out_from": "CPH",
    "out_to": "EWR",
-   "price": 2108.0,
+   "price": 2111.0,
    "ticket_type": "single",
    "airlines": [
     "Icelandair"
@@ -124,8 +124,8 @@
    "ret_date": "2026-12-08",
    "ret_from": "EWR",
    "ret_to": "CPH",
-   "separate_price": 3048.0,
-   "last_seen": "2026-10-06T17:57:37Z",
+   "separate_price": 3049.0,
+   "last_seen": "2026-10-06T22:53:14Z",
    "available": true
   },
   {
@@ -134,7 +134,7 @@
    "out_date": "2026-12-02",
    "out_from": "CPH",
    "out_to": "EWR",
-   "price": 2108.0,
+   "price": 2111.0,
    "ticket_type": "single",
    "airlines": [
     "Icelandair"
@@ -145,8 +145,8 @@
    "ret_date": "2026-12-08",
    "ret_from": "EWR",
    "ret_to": "CPH",
-   "separate_price": 3048.0,
-   "last_seen": "2026-10-06T17:57:37Z",
+   "separate_price": 3049.0,
+   "last_seen": "2026-10-06T22:53:14Z",
    "available": true
   },
   {
@@ -155,7 +155,7 @@
    "out_date": "2026-12-02",
    "out_from": "CPH",
    "out_to": "BOS",
-   "price": 2127.0,
+   "price": 2128.0,
    "ticket_type": "single",
    "airlines": [
     "Tap Air Portugal"
@@ -166,8 +166,8 @@
    "ret_date": "2026-12-09",
    "ret_from": "BOS",
    "ret_to": "CPH",
-   "separate_price": 2648.0,
-   "last_seen": "2026-10-06T17:57:37Z",
+   "separate_price": 2649.0,
+   "last_seen": "2026-10-06T22:53:14Z",
    "available": true
   },
   {
@@ -176,7 +176,7 @@
    "out_date": "2026-12-01",
    "out_from": "CPH",
    "out_to": "IAD",
-   "price": 2158.0,
+   "price": 2159.0,
    "ticket_type": "single",
    "airlines": [
     "Tap Air Portugal"
@@ -187,8 +187,8 @@
    "ret_date": "2026-12-07",
    "ret_from": "IAD",
    "ret_to": "CPH",
-   "separate_price": 2640.0,
-   "last_seen": "2026-10-06T17:57:37Z",
+   "separate_price": 2641.0,
+   "last_seen": "2026-10-06T22:53:14Z",
    "available": true
   },
   {
@@ -197,7 +197,7 @@
    "out_date": "2026-12-01",
    "out_from": "CPH",
    "out_to": "IAD",
-   "price": 2158.0,
+   "price": 2159.0,
    "ticket_type": "single",
    "airlines": [
     "Tap Air Portugal"
@@ -208,8 +208,8 @@
    "ret_date": "2026-12-08",
    "ret_from": "IAD",
    "ret_to": "CPH",
-   "separate_price": 2640.0,
-   "last_seen": "2026-10-06T17:57:37Z",
+   "separate_price": 2641.0,
+   "last_seen": "2026-10-06T22:53:14Z",
    "available": true
   },
   {
@@ -218,7 +218,7 @@
    "out_date": "2026-12-01",
    "out_from": "CPH",
    "out_to": "IAD",
-   "price": 2158.0,
+   "price": 2159.0,
    "ticket_type": "single",
    "airlines": [
     "Tap Air Portugal"
@@ -229,8 +229,8 @@
    "ret_date": "2026-12-09",
    "ret_from": "IAD",
    "ret_to": "CPH",
-   "separate_price": 2640.0,
-   "last_seen": "2026-10-06T17:57:37Z",
+   "separate_price": 2641.0,
+   "last_seen": "2026-10-06T22:53:14Z",
    "available": true
   },
   {
@@ -239,7 +239,7 @@
    "out_date": "2026-12-02",
    "out_from": "CPH",
    "out_to": "IAD",
-   "price": 2158.0,
+   "price": 2159.0,
    "ticket_type": "single",
    "airlines": [
     "Tap Air Portugal"
@@ -250,8 +250,8 @@
    "ret_date": "2026-12-08",
    "ret_from": "IAD",
    "ret_to": "CPH",
-   "separate_price": 2640.0,
-   "last_seen": "2026-10-06T17:57:37Z",
+   "separate_price": 2641.0,
+   "last_seen": "2026-10-06T22:53:14Z",
    "available": true
   },
   {
@@ -260,7 +260,7 @@
    "out_date": "2026-12-02",
    "out_from": "CPH",
    "out_to": "IAD",
-   "price": 2158.0,
+   "price": 2159.0,
    "ticket_type": "single",
    "airlines": [
     "Tap Air Portugal"
@@ -271,8 +271,8 @@
    "ret_date": "2026-12-09",
    "ret_from": "IAD",
    "ret_to": "CPH",
-   "separate_price": 2640.0,
-   "last_seen": "2026-10-06T17:57:37Z",
+   "separate_price": 2641.0,
+   "last_seen": "2026-10-06T22:53:14Z",
    "available": true
   },
   {
@@ -281,7 +281,7 @@
    "out_date": "2026-12-02",
    "out_from": "CPH",
    "out_to": "BOS",
-   "price": 2187.0,
+   "price": 2188.0,
    "ticket_type": "single",
    "airlines": [
     "Tap Air Portugal"
@@ -292,8 +292,8 @@
    "ret_date": "2026-12-08",
    "ret_from": "BOS",
    "ret_to": "CPH",
-   "separate_price": 2648.0,
-   "last_seen": "2026-10-06T17:57:37Z",
+   "separate_price": 2649.0,
+   "last_seen": "2026-10-06T22:53:14Z",
    "available": true
   }
  ],
@@ -327,6 +327,21 @@
    "ret_from": "JFK",
    "ret_to": "CPH",
    "separate_price": 3048.0
+  },
+  {
+   "run": "2026-10-06T22:53:14Z",
+   "out_date": "2026-12-01",
+   "out_from": "CPH",
+   "out_to": "JFK",
+   "price": 2044.0,
+   "ticket_type": "single",
+   "airlines": [
+    "Finnair"
+   ],
+   "ret_date": "2026-12-08",
+   "ret_from": "JFK",
+   "ret_to": "CPH",
+   "separate_price": 3049.0
   }
  ],
  "runs": [
@@ -343,7 +358,14 @@
    "provider": "google",
    "status": "ok",
    "errors": []
+  },
+  {
+   "run": "2026-10-06T22:53:14Z",
+   "searches": 106,
+   "provider": "google",
+   "status": "ok",
+   "errors": []
   }
  ],
- "updated": "2026-10-06T17:57:37Z"
+ "updated": "2026-10-06T22:53:14Z"
 }

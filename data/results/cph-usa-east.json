@@ -1,0 +1,264 @@
+{
+ "search_id": "cph-usa-east",
+ "currency": "PLN",
+ "deals": [
+  {
+   "key": "CPH-JFK-2026-12-01|JFK-CPH-2026-12-07",
+   "first_seen": "2026-10-06T13:54:24Z",
+   "out_date": "2026-12-01",
+   "out_from": "CPH",
+   "out_to": "JFK",
+   "price": 2011.0,
+   "ticket_type": "single",
+   "airlines": [
+    "Finnair"
+   ],
+   "links": [
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTItMDFqBRIDQ1BIcgUSA0pGSxoaEgoyMDI2LTEyLTA3agUSA0pGS3IFEgNDUEhCAQFIAYgBAZgBAQ==&hl=en-US&curr=PLN"
+   ],
+   "ret_date": "2026-12-07",
+   "ret_from": "JFK",
+   "ret_to": "CPH",
+   "separate_price": 3277.0,
+   "last_seen": "2026-10-06T13:54:24Z",
+   "available": true
+  },
+  {
+   "key": "CPH-JFK-2026-11-30|JFK-CPH-2026-12-06",
+   "first_seen": "2026-10-06T13:54:24Z",
+   "out_date": "2026-11-30",
+   "out_from": "CPH",
+   "out_to": "JFK",
+   "price": 2020.0,
+   "ticket_type": "single",
+   "airlines": [
+    "Tap Air Portugal"
+   ],
+   "links": [
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMzBqBRIDQ1BIcgUSA0pGSxoaEgoyMDI2LTEyLTA2agUSA0pGS3IFEgNDUEhCAQFIAYgBAZgBAQ==&hl=en-US&curr=PLN"
+   ],
+   "ret_date": "2026-12-06",
+   "ret_from": "JFK",
+   "ret_to": "CPH",
+   "separate_price": 3251.0,
+   "last_seen": "2026-10-06T13:54:24Z",
+   "available": true
+  },
+  {
+   "key": "CPH-EWR-2026-12-02|EWR-CPH-2026-12-09",
+   "first_seen": "2026-10-06T13:54:24Z",
+   "out_date": "2026-12-02",
+   "out_from": "CPH",
+   "out_to": "EWR",
+   "price": 2049.0,
+   "ticket_type": "single",
+   "airlines": [
+    "Icelandair"
+   ],
+   "links": [
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTItMDJqBRIDQ1BIcgUSA0VXUhoaEgoyMDI2LTEyLTA5agUSA0VXUnIFEgNDUEhCAQFIAYgBAZgBAQ==&hl=en-US&curr=PLN"
+   ],
+   "ret_date": "2026-12-09",
+   "ret_from": "EWR",
+   "ret_to": "CPH",
+   "separate_price": 3364.0,
+   "last_seen": "2026-10-06T13:54:24Z",
+   "available": true
+  },
+  {
+   "key": "CPH-EWR-2026-12-02|EWR-CPH-2026-12-08",
+   "first_seen": "2026-10-06T13:54:24Z",
+   "out_date": "2026-12-02",
+   "out_from": "CPH",
+   "out_to": "EWR",
+   "price": 2107.0,
+   "ticket_type": "single",
+   "airlines": [
+    "Icelandair"
+   ],
+   "links": [
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTItMDJqBRIDQ1BIcgUSA0VXUhoaEgoyMDI2LTEyLTA4agUSA0VXUnIFEgNDUEhCAQFIAYgBAZgBAQ==&hl=en-US&curr=PLN"
+   ],
+   "ret_date": "2026-12-08",
+   "ret_from": "EWR",
+   "ret_to": "CPH",
+   "separate_price": 3364.0,
+   "last_seen": "2026-10-06T13:54:24Z",
+   "available": true
+  },
+  {
+   "key": "CPH-BOS-2026-12-02|BOS-CPH-2026-12-09",
+   "first_seen": "2026-10-06T13:54:24Z",
+   "out_date": "2026-12-02",
+   "out_from": "CPH",
+   "out_to": "BOS",
+   "price": 2126.0,
+   "ticket_type": "single",
+   "airlines": [
+    "Tap Air Portugal"
+   ],
+   "links": [
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTItMDJqBRIDQ1BIcgUSA0JPUxoaEgoyMDI2LTEyLTA5agUSA0JPU3IFEgNDUEhCAQFIAYgBAZgBAQ==&hl=en-US&curr=PLN"
+   ],
+   "ret_date": "2026-12-09",
+   "ret_from": "BOS",
+   "ret_to": "CPH",
+   "separate_price": 2646.0,
+   "last_seen": "2026-10-06T13:54:24Z",
+   "available": true
+  },
+  {
+   "key": "CPH-IAD-2026-12-01|IAD-CPH-2026-12-07",
+   "first_seen": "2026-10-06T13:54:24Z",
+   "out_date": "2026-12-01",
+   "out_from": "CPH",
+   "out_to": "IAD",
+   "price": 2157.0,
+   "ticket_type": "single",
+   "airlines": [
+    "Tap Air Portugal"
+   ],
+   "links": [
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTItMDFqBRIDQ1BIcgUSA0lBRBoaEgoyMDI2LTEyLTA3agUSA0lBRHIFEgNDUEhCAQFIAYgBAZgBAQ==&hl=en-US&curr=PLN"
+   ],
+   "ret_date": "2026-12-07",
+   "ret_from": "IAD",
+   "ret_to": "CPH",
+   "separate_price": 2796.0,
+   "last_seen": "2026-10-06T13:54:24Z",
+   "available": true
+  },
+  {
+   "key": "CPH-IAD-2026-12-01|IAD-CPH-2026-12-08",
+   "first_seen": "2026-10-06T13:54:24Z",
+   "out_date": "2026-12-01",
+   "out_from": "CPH",
+   "out_to": "IAD",
+   "price": 2157.0,
+   "ticket_type": "single",
+   "airlines": [
+    "Tap Air Portugal"
+   ],
+   "links": [
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTItMDFqBRIDQ1BIcgUSA0lBRBoaEgoyMDI2LTEyLTA4agUSA0lBRHIFEgNDUEhCAQFIAYgBAZgBAQ==&hl=en-US&curr=PLN"
+   ],
+   "ret_date": "2026-12-08",
+   "ret_from": "IAD",
+   "ret_to": "CPH",
+   "separate_price": 2796.0,
+   "last_seen": "2026-10-06T13:54:24Z",
+   "available": true
+  },
+  {
+   "key": "CPH-IAD-2026-12-01|IAD-CPH-2026-12-09",
+   "first_seen": "2026-10-06T13:54:24Z",
+   "out_date": "2026-12-01",
+   "out_from": "CPH",
+   "out_to": "IAD",
+   "price": 2157.0,
+   "ticket_type": "single",
+   "airlines": [
+    "Tap Air Portugal"
+   ],
+   "links": [
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTItMDFqBRIDQ1BIcgUSA0lBRBoaEgoyMDI2LTEyLTA5agUSA0lBRHIFEgNDUEhCAQFIAYgBAZgBAQ==&hl=en-US&curr=PLN"
+   ],
+   "ret_date": "2026-12-09",
+   "ret_from": "IAD",
+   "ret_to": "CPH",
+   "separate_price": 2796.0,
+   "last_seen": "2026-10-06T13:54:24Z",
+   "available": true
+  },
+  {
+   "key": "CPH-IAD-2026-12-02|IAD-CPH-2026-12-08",
+   "first_seen": "2026-10-06T13:54:24Z",
+   "out_date": "2026-12-02",
+   "out_from": "CPH",
+   "out_to": "IAD",
+   "price": 2157.0,
+   "ticket_type": "single",
+   "airlines": [
+    "Tap Air Portugal"
+   ],
+   "links": [
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTItMDJqBRIDQ1BIcgUSA0lBRBoaEgoyMDI2LTEyLTA4agUSA0lBRHIFEgNDUEhCAQFIAYgBAZgBAQ==&hl=en-US&curr=PLN"
+   ],
+   "ret_date": "2026-12-08",
+   "ret_from": "IAD",
+   "ret_to": "CPH",
+   "separate_price": 2781.0,
+   "last_seen": "2026-10-06T13:54:24Z",
+   "available": true
+  },
+  {
+   "key": "CPH-IAD-2026-12-02|IAD-CPH-2026-12-09",
+   "first_seen": "2026-10-06T13:54:24Z",
+   "out_date": "2026-12-02",
+   "out_from": "CPH",
+   "out_to": "IAD",
+   "price": 2157.0,
+   "ticket_type": "single",
+   "airlines": [
+    "Tap Air Portugal"
+   ],
+   "links": [
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTItMDJqBRIDQ1BIcgUSA0lBRBoaEgoyMDI2LTEyLTA5agUSA0lBRHIFEgNDUEhCAQFIAYgBAZgBAQ==&hl=en-US&curr=PLN"
+   ],
+   "ret_date": "2026-12-09",
+   "ret_from": "IAD",
+   "ret_to": "CPH",
+   "separate_price": 2781.0,
+   "last_seen": "2026-10-06T13:54:24Z",
+   "available": true
+  },
+  {
+   "key": "CPH-BOS-2026-12-02|BOS-CPH-2026-12-08",
+   "first_seen": "2026-10-06T13:54:24Z",
+   "out_date": "2026-12-02",
+   "out_from": "CPH",
+   "out_to": "BOS",
+   "price": 2185.0,
+   "ticket_type": "single",
+   "airlines": [
+    "Tap Air Portugal"
+   ],
+   "links": [
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTItMDJqBRIDQ1BIcgUSA0JPUxoaEgoyMDI2LTEyLTA4agUSA0JPU3IFEgNDUEhCAQFIAYgBAZgBAQ==&hl=en-US&curr=PLN"
+   ],
+   "ret_date": "2026-12-08",
+   "ret_from": "BOS",
+   "ret_to": "CPH",
+   "separate_price": 2646.0,
+   "last_seen": "2026-10-06T13:54:24Z",
+   "available": true
+  }
+ ],
+ "cheapest_per_run": [
+  {
+   "run": "2026-10-06T13:54:24Z",
+   "out_date": "2026-12-01",
+   "out_from": "CPH",
+   "out_to": "JFK",
+   "price": 2011.0,
+   "ticket_type": "single",
+   "airlines": [
+    "Finnair"
+   ],
+   "ret_date": "2026-12-07",
+   "ret_from": "JFK",
+   "ret_to": "CPH",
+   "separate_price": 3277.0
+  }
+ ],
+ "runs": [
+  {
+   "run": "2026-10-06T13:54:24Z",
+   "searches": 104,
+   "provider": "google",
+   "status": "ok",
+   "errors": []
+  }
+ ],
+ "updated": "2026-10-06T13:54:24Z"
+}

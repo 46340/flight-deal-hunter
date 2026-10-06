@@ -134,6 +134,21 @@
     }
    ],
    "errors": []
+  },
+  {
+   "run": "2026-10-06T11:48:23Z",
+   "status": "ok",
+   "queries": 620,
+   "provider": "google",
+   "searches": [
+    {
+     "search_id": "usa-2o0q",
+     "status": "ok",
+     "deals": 17,
+     "trips": 24648
+    }
+   ],
+   "errors": []
   }
  ]
 }

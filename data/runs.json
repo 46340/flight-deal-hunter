@@ -194,6 +194,21 @@
     }
    ],
    "errors": []
+  },
+  {
+   "run": "2026-10-07T11:31:49Z",
+   "status": "ok",
+   "queries": 99,
+   "provider": "google",
+   "searches": [
+    {
+     "search_id": "cph-usa-east",
+     "status": "ok",
+     "deals": 13,
+     "trips": 345
+    }
+   ],
+   "errors": []
   }
  ]
 }

@@ -84,7 +84,7 @@
    "ret_to": "CPH",
    "separate_price": 3068.0,
    "last_seen": "2026-10-09T23:02:17Z",
-   "available": true
+   "available": false
   },
   {
    "key": "CPH-JFK-2026-12-01|JFK-CPH-2026-12-07",
@@ -105,7 +105,7 @@
    "ret_to": "CPH",
    "separate_price": 3068.0,
    "last_seen": "2026-10-09T23:02:17Z",
-   "available": true
+   "available": false
   },
   {
    "key": "CPH-JFK-2026-12-01|JFK-CPH-2026-12-09",
@@ -125,7 +125,7 @@
    "ret_from": "JFK",
    "ret_to": "CPH",
    "separate_price": 3068.0,
-   "last_seen": "2026-10-09T23:02:17Z",
+   "last_seen": "2026-10-10T10:57:07Z",
    "available": true
   },
   {
@@ -145,8 +145,8 @@
    "ret_date": "2026-12-09",
    "ret_from": "JFK",
    "ret_to": "CPH",
-   "separate_price": 3219.0,
-   "last_seen": "2026-10-09T23:02:17Z",
+   "separate_price": 3105.0,
+   "last_seen": "2026-10-10T10:57:07Z",
    "available": true
   },
   {
@@ -168,7 +168,7 @@
    "ret_to": "CPH",
    "separate_price": 3068.0,
    "last_seen": "2026-10-09T23:02:17Z",
-   "available": true
+   "available": false
   },
   {
    "key": "CPH-EWR-2026-12-03|EWR-CPH-2026-12-09",
@@ -189,7 +189,7 @@
    "ret_to": "CPH",
    "separate_price": 3068.0,
    "last_seen": "2026-10-09T23:02:17Z",
-   "available": true
+   "available": false
   },
   {
    "key": "CPH-EWR-2026-12-02|EWR-CPH-2026-12-09",
@@ -210,6 +210,50 @@
    "ret_to": "CPH",
    "separate_price": 3068.0,
    "last_seen": "2026-10-09T23:02:17Z",
+   "available": false
+  },
+  {
+   "key": "CPH-LGA-2026-12-01|LGA-CPH-2026-12-07",
+   "first_seen": "2026-10-10T10:57:07Z",
+   "out_date": "2026-12-01",
+   "out_from": "CPH",
+   "out_to": "LGA",
+   "price": 2098.0,
+   "ticket_type": "single",
+   "airlines": [
+    "British Airways",
+    "American"
+   ],
+   "links": [
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTItMDFqBRIDQ1BIcgUSA0xHQRoaEgoyMDI2LTEyLTA3agUSA0xHQXIFEgNDUEhCAQFIAYgBAZgBAQ==&hl=en-US&curr=PLN"
+   ],
+   "ret_date": "2026-12-07",
+   "ret_from": "LGA",
+   "ret_to": "CPH",
+   "separate_price": 3663.0,
+   "last_seen": "2026-10-10T10:57:07Z",
+   "available": true
+  },
+  {
+   "key": "CPH-LGA-2026-12-01|LGA-CPH-2026-12-08",
+   "first_seen": "2026-10-10T10:57:07Z",
+   "out_date": "2026-12-01",
+   "out_from": "CPH",
+   "out_to": "LGA",
+   "price": 2098.0,
+   "ticket_type": "single",
+   "airlines": [
+    "British Airways",
+    "American"
+   ],
+   "links": [
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTItMDFqBRIDQ1BIcgUSA0xHQRoaEgoyMDI2LTEyLTA4agUSA0xHQXIFEgNDUEhCAQFIAYgBAZgBAQ==&hl=en-US&curr=PLN"
+   ],
+   "ret_date": "2026-12-08",
+   "ret_from": "LGA",
+   "ret_to": "CPH",
+   "separate_price": 3663.0,
+   "last_seen": "2026-10-10T10:57:07Z",
    "available": true
   },
   {
@@ -230,7 +274,7 @@
    "ret_from": "EWR",
    "ret_to": "CPH",
    "separate_price": 3068.0,
-   "last_seen": "2026-10-09T23:02:17Z",
+   "last_seen": "2026-10-10T10:57:07Z",
    "available": true
   },
   {
@@ -239,7 +283,7 @@
    "out_date": "2026-12-01",
    "out_from": "CPH",
    "out_to": "EWR",
-   "price": 2121.0,
+   "price": 2118.0,
    "ticket_type": "single",
    "airlines": [
     "Icelandair"
@@ -250,9 +294,9 @@
    "ret_date": "2026-12-08",
    "ret_from": "EWR",
    "ret_to": "CPH",
-   "separate_price": 3073.0,
-   "last_seen": "2026-10-09T17:59:07Z",
-   "available": false
+   "separate_price": 3068.0,
+   "last_seen": "2026-10-10T10:57:07Z",
+   "available": true
   },
   {
    "key": "CPH-BOS-2026-12-02|BOS-CPH-2026-12-09",
@@ -273,7 +317,7 @@
    "ret_to": "CPH",
    "separate_price": 2766.0,
    "last_seen": "2026-10-09T23:02:17Z",
-   "available": true
+   "available": false
   },
   {
    "key": "CPH-IAD-2026-12-02|IAD-CPH-2026-12-09",
@@ -293,7 +337,7 @@
    "ret_from": "IAD",
    "ret_to": "CPH",
    "separate_price": 2516.0,
-   "last_seen": "2026-10-09T23:02:17Z",
+   "last_seen": "2026-10-10T10:57:07Z",
    "available": true
   },
   {
@@ -302,7 +346,7 @@
    "out_date": "2026-12-02",
    "out_from": "CPH",
    "out_to": "IAD",
-   "price": 2171.0,
+   "price": 2168.0,
    "ticket_type": "single",
    "airlines": [
     "Tap Air Portugal"
@@ -313,9 +357,9 @@
    "ret_date": "2026-12-08",
    "ret_from": "IAD",
    "ret_to": "CPH",
-   "separate_price": 2520.0,
-   "last_seen": "2026-10-09T17:59:07Z",
-   "available": false
+   "separate_price": 2516.0,
+   "last_seen": "2026-10-10T10:57:07Z",
+   "available": true
   },
   {
    "key": "CPH-EWR-2026-12-02|EWR-CPH-2026-12-08",
@@ -358,7 +402,7 @@
    "ret_to": "CPH",
    "separate_price": 2766.0,
    "last_seen": "2026-10-09T23:02:17Z",
-   "available": true
+   "available": false
   },
   {
    "key": "CPH-BOS-2026-12-01|BOS-CPH-2026-12-07",
@@ -380,7 +424,7 @@
    "ret_to": "CPH",
    "separate_price": 2766.0,
    "last_seen": "2026-10-09T23:02:17Z",
-   "available": true
+   "available": false
   },
   {
    "key": "CPH-BOS-2026-12-01|BOS-CPH-2026-12-09",
@@ -402,6 +446,28 @@
    "ret_to": "CPH",
    "separate_price": 2766.0,
    "last_seen": "2026-10-09T23:02:17Z",
+   "available": false
+  },
+  {
+   "key": "CPH-BOS-2026-12-02|BOS-CPH-2026-12-08",
+   "first_seen": "2026-10-06T13:54:24Z",
+   "out_date": "2026-12-02",
+   "out_from": "CPH",
+   "out_to": "BOS",
+   "price": 2196.0,
+   "ticket_type": "single",
+   "airlines": [
+    "Finnair",
+    "American"
+   ],
+   "links": [
+    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTItMDJqBRIDQ1BIcgUSA0JPUxoaEgoyMDI2LTEyLTA4agUSA0JPU3IFEgNDUEhCAQFIAYgBAZgBAQ==&hl=en-US&curr=PLN"
+   ],
+   "ret_date": "2026-12-08",
+   "ret_from": "BOS",
+   "ret_to": "CPH",
+   "separate_price": 2766.0,
+   "last_seen": "2026-10-10T10:57:07Z",
    "available": true
   },
   {
@@ -424,7 +490,7 @@
    "ret_to": "CPH",
    "separate_price": 2766.0,
    "last_seen": "2026-10-09T23:02:17Z",
-   "available": true
+   "available": false
   },
   {
    "key": "CPH-IAD-2026-12-01|IAD-CPH-2026-12-08",
@@ -487,28 +553,6 @@
    "ret_to": "CPH",
    "separate_price": 2652.0,
    "last_seen": "2026-10-09T11:39:31Z",
-   "available": false
-  },
-  {
-   "key": "CPH-BOS-2026-12-02|BOS-CPH-2026-12-08",
-   "first_seen": "2026-10-06T13:54:24Z",
-   "out_date": "2026-12-02",
-   "out_from": "CPH",
-   "out_to": "BOS",
-   "price": 2198.0,
-   "ticket_type": "single",
-   "airlines": [
-    "Finnair",
-    "American"
-   ],
-   "links": [
-    "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTItMDJqBRIDQ1BIcgUSA0JPUxoaEgoyMDI2LTEyLTA4agUSA0JPU3IFEgNDUEhCAQFIAYgBAZgBAQ==&hl=en-US&curr=PLN"
-   ],
-   "ret_date": "2026-12-08",
-   "ret_from": "BOS",
-   "ret_to": "CPH",
-   "separate_price": 2771.0,
-   "last_seen": "2026-10-09T17:59:07Z",
    "available": false
   },
   {
@@ -776,6 +820,21 @@
    "ret_from": "JFK",
    "ret_to": "CPH",
    "separate_price": 3068.0
+  },
+  {
+   "run": "2026-10-10T10:57:07Z",
+   "out_date": "2026-12-01",
+   "out_from": "CPH",
+   "out_to": "JFK",
+   "price": 2022.0,
+   "ticket_type": "single",
+   "airlines": [
+    "Finnair"
+   ],
+   "ret_date": "2026-12-09",
+   "ret_from": "JFK",
+   "ret_to": "CPH",
+   "separate_price": 3068.0
   }
  ],
  "runs": [
@@ -862,7 +921,14 @@
    "provider": "google",
    "status": "ok",
    "errors": []
+  },
+  {
+   "run": "2026-10-10T10:57:07Z",
+   "searches": 102,
+   "provider": "google",
+   "status": "ok",
+   "errors": []
   }
  ],
- "updated": "2026-10-09T23:02:17Z"
+ "updated": "2026-10-10T10:57:07Z"
 }

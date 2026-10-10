@@ -83,7 +83,7 @@
    "ret_from": "JFK",
    "ret_to": "CPH",
    "separate_price": 3068.0,
-   "last_seen": "2026-10-10T16:59:33Z",
+   "last_seen": "2026-10-10T22:13:33Z",
    "available": true
   },
   {
@@ -104,8 +104,8 @@
    "ret_from": "JFK",
    "ret_to": "CPH",
    "separate_price": 3068.0,
-   "last_seen": "2026-10-09T23:02:17Z",
-   "available": false
+   "last_seen": "2026-10-10T22:13:33Z",
+   "available": true
   },
   {
    "key": "CPH-JFK-2026-12-01|JFK-CPH-2026-12-09",
@@ -274,8 +274,8 @@
    "ret_from": "EWR",
    "ret_to": "CPH",
    "separate_price": 3068.0,
-   "last_seen": "2026-10-10T10:57:07Z",
-   "available": false
+   "last_seen": "2026-10-10T22:13:33Z",
+   "available": true
   },
   {
    "key": "CPH-EWR-2026-12-01|EWR-CPH-2026-12-08",
@@ -295,8 +295,8 @@
    "ret_from": "EWR",
    "ret_to": "CPH",
    "separate_price": 3068.0,
-   "last_seen": "2026-10-10T10:57:07Z",
-   "available": false
+   "last_seen": "2026-10-10T22:13:33Z",
+   "available": true
   },
   {
    "key": "CPH-BOS-2026-12-02|BOS-CPH-2026-12-09",
@@ -316,7 +316,7 @@
    "ret_from": "BOS",
    "ret_to": "CPH",
    "separate_price": 2766.0,
-   "last_seen": "2026-10-10T16:59:33Z",
+   "last_seen": "2026-10-10T22:13:33Z",
    "available": true
   },
   {
@@ -337,8 +337,8 @@
    "ret_from": "IAD",
    "ret_to": "CPH",
    "separate_price": 2516.0,
-   "last_seen": "2026-10-10T10:57:07Z",
-   "available": false
+   "last_seen": "2026-10-10T22:13:33Z",
+   "available": true
   },
   {
    "key": "CPH-IAD-2026-12-02|IAD-CPH-2026-12-08",
@@ -358,8 +358,8 @@
    "ret_from": "IAD",
    "ret_to": "CPH",
    "separate_price": 2516.0,
-   "last_seen": "2026-10-10T10:57:07Z",
-   "available": false
+   "last_seen": "2026-10-10T22:13:33Z",
+   "available": true
   },
   {
    "key": "CPH-EWR-2026-12-02|EWR-CPH-2026-12-08",
@@ -401,7 +401,7 @@
    "ret_from": "BOS",
    "ret_to": "CPH",
    "separate_price": 2766.0,
-   "last_seen": "2026-10-10T16:59:33Z",
+   "last_seen": "2026-10-10T22:13:33Z",
    "available": true
   },
   {
@@ -423,8 +423,8 @@
    "ret_from": "BOS",
    "ret_to": "CPH",
    "separate_price": 2766.0,
-   "last_seen": "2026-10-09T23:02:17Z",
-   "available": false
+   "last_seen": "2026-10-10T22:13:33Z",
+   "available": true
   },
   {
    "key": "CPH-BOS-2026-12-01|BOS-CPH-2026-12-09",
@@ -445,7 +445,7 @@
    "ret_from": "BOS",
    "ret_to": "CPH",
    "separate_price": 2766.0,
-   "last_seen": "2026-10-10T16:59:33Z",
+   "last_seen": "2026-10-10T22:13:33Z",
    "available": true
   },
   {
@@ -467,7 +467,7 @@
    "ret_from": "BOS",
    "ret_to": "CPH",
    "separate_price": 2766.0,
-   "last_seen": "2026-10-10T16:59:33Z",
+   "last_seen": "2026-10-10T22:13:33Z",
    "available": true
   },
   {
@@ -489,7 +489,7 @@
    "ret_from": "BOS",
    "ret_to": "CPH",
    "separate_price": 2766.0,
-   "last_seen": "2026-10-10T16:59:33Z",
+   "last_seen": "2026-10-10T22:13:33Z",
    "available": true
   },
   {
@@ -850,6 +850,21 @@
    "ret_from": "JFK",
    "ret_to": "CPH",
    "separate_price": 3068.0
+  },
+  {
+   "run": "2026-10-10T22:13:33Z",
+   "out_date": "2026-12-01",
+   "out_from": "CPH",
+   "out_to": "JFK",
+   "price": 2022.0,
+   "ticket_type": "single",
+   "airlines": [
+    "Finnair"
+   ],
+   "ret_date": "2026-12-07",
+   "ret_from": "JFK",
+   "ret_to": "CPH",
+   "separate_price": 3068.0
   }
  ],
  "runs": [
@@ -950,7 +965,14 @@
    "provider": "google",
    "status": "ok",
    "errors": []
+  },
+  {
+   "run": "2026-10-10T22:13:33Z",
+   "searches": 103,
+   "provider": "google",
+   "status": "ok",
+   "errors": []
   }
  ],
- "updated": "2026-10-10T16:59:33Z"
+ "updated": "2026-10-10T22:13:33Z"
 }

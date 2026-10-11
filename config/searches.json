@@ -39,7 +39,7 @@
     {
       "id": "cph-usa-east",
       "name": "CPH → US East Coast",
-      "status": "active",
+      "status": "paused",
       "created": "2026-10-06",
       "tracking_days": 10,
       "expires": "2026-10-16",
